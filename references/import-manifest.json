@@ -1,0 +1,56 @@
+{
+  "snapshot_date": "2026-11-10",
+  "scope": "Eight existing first-party creative skills; procedure and script files preserved byte-for-byte. Knowledge references point to Notion. No client installation or automatic sync performed.",
+  "files": [
+    {
+      "path": "skills/el-hamaayan-logo-variation-system/SKILL.md",
+      "sha256": "979a71134c21004dca28a1ba0a6bda6a72919a2045e4e2c7dfaf15b01c9c6e3f",
+      "kind": "unchanged_first_party_procedure"
+    },
+    {
+      "path": "skills/el-hamaayan-brand-archive-system/SKILL.md",
+      "sha256": "764a8821ff5a68197955408fb864aa0cba78863a4cb055e684cbdb8fcfa3cca7",
+      "kind": "unchanged_first_party_procedure"
+    },
+    {
+      "path": "skills/el-hamaayan-brand-voice-wordmark/SKILL.md",
+      "sha256": "7ae523d01c69b0780e9a03fb2fa7726a084344d04e8720d7f51184c5cdb2e418",
+      "kind": "unchanged_first_party_procedure"
+    },
+    {
+      "path": "skills/el-hamaayan-reel/SKILL.md",
+      "sha256": "8e92a7baee57c5ab552a9a0530a06d8e6f6d06486adf5f3a7175bbaef75f11c3",
+      "kind": "unchanged_first_party_procedure"
+    },
+    {
+      "path": "skills/el-hamaayan-reel/scripts/render_one_shot_reel.py",
+      "sha256": "c24eca35124b06c690074a5c1b0d8f9bf97739b9174b067b4f0301d40933042b",
+      "kind": "unchanged_first_party_script"
+    },
+    {
+      "path": "skills/el-hamaayan-engagement-lab/SKILL.md",
+      "sha256": "dca0ddde22d4429de95f606c7eca44e6081de044bb18faf15d9b1e663d79431a",
+      "kind": "unchanged_first_party_procedure"
+    },
+    {
+      "path": "skills/el-hamaayan-engagement-lab/scripts/summarize_snapshot.py",
+      "sha256": "eab4480dd3ad5790425d64fefaec199bf0a69b1c8b7c546229005e2e1ee66099",
+      "kind": "unchanged_first_party_script"
+    },
+    {
+      "path": "skills/el-hamaayan-visual-design/SKILL.md",
+      "sha256": "1a5c254a474629b31c30cab0759f0700d49dd8591edc5b2e22d105c9c25d1536",
+      "kind": "unchanged_first_party_procedure"
+    },
+    {
+      "path": "skills/el-hamaayan-social-templates/SKILL.md",
+      "sha256": "80ebb8d84a8649db1885ce9ff94284b9cea6a36367e2ed052afd9bebbed14cc3",
+      "kind": "unchanged_first_party_procedure"
+    },
+    {
+      "path": "skills/self-attention/SKILL.md",
+      "sha256": "03bd8eb35498ce031ad73a0fbf9f120dd4685281ecabb39490f647234010126a",
+      "kind": "unchanged_first_party_procedure"
+    }
+  ]
+}

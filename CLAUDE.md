@@ -1,0 +1,1 @@
+Read and follow AGENTS.md at the repository root, then consult references/sources.json and skills/README.md. The skill folders contain instructions, scripts and pointers; knowledge is in Notion and media is in Drive.
