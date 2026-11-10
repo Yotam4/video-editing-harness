@@ -5,7 +5,7 @@ description: Start and organize Ela Maayan / אל המעיין social content wo
 
 # El Hamaayan Content Router
 
-Start relevant content sessions with a proportionate routing pass. Preserve the user's actual goal and approved choices. A minor edit does not need a new strategy exercise.
+Start relevant content sessions with a proportionate routing pass. Preserve the user's actual goal and approved choices. A minor edit does not need a new strategy exercise. Using the new system on existing content means understanding, classifying and preserving it; it does not authorize a visual redesign. Keep the original font files, font weights, typography, composition and renderer unless the user explicitly asks to change them. If exact rendering cannot be preserved, stop visual changes and report the limitation rather than substituting a similar font or new layout.
 
 ## Load the current system
 

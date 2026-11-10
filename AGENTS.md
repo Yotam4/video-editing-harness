@@ -14,6 +14,8 @@ For social requests, use `el-hamaayan-content-router` as the entry procedure. Lo
 
 ## Produce and review
 
+- Applying this system to existing content means understanding, classifying and preserving it. Preserve the original font files, actual weights, typography, composition and renderer unless a redesign or specific visual change is requested. Read [the preservation lesson](docs/learnings/preserve-established-design.md). Do not substitute a similar font or rebuild a layout solely to demonstrate the system.
+
 - Preserve approved wording exactly; line breaks may change for layout. Record requested wording changes and rationale.
 - Use real photos, screenshots and evidence; do not invent product behavior, quotes or metrics.
 - Inspect carousel slides 1 and 2 independently and in sequence, the full payoff, Hebrew RTL and phone readability. Read the current brand direction before refining it.
