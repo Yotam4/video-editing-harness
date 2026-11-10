@@ -128,6 +128,11 @@
       "source_path": "docs/learnings/preserve-established-design.md",
       "page_id": "414c4747-654f-8196-885e-e995bf4de65a",
       "source_sha256": "3cde212bea3fd23f0dcd345adf5284874c3c047bfb5d050a577d5a098bc4056f"
+    },
+    {
+      "source_path": "docs/content/short_video/feature-walkthrough/public-transport-video/2026-11-10-v1.md",
+      "page_id": "414c4747-654f-8164-9477-f34b1a6d2b2a",
+      "source_sha256": "147c51689426dbe8b39ef42523fa9c1347eb7291d792244b5b18a98111093996"
     }
   ]
 }
