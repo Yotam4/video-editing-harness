@@ -118,6 +118,11 @@
       "source_path": "docs/validation/modular-content-2026-11-10.md",
       "page_id": "414c4747-654f-81e6-a2c8-c5774178b0cf",
       "source_sha256": "66ca330a0161db0e07c4820193df39956be831d5b25a24d066647506b1ec15ce"
+    },
+    {
+      "source_path": "docs/content/carousel/feature-walkthrough/public-transport/2026-11-10-v9.md",
+      "page_id": "414c4747-654f-8189-8e53-e1bbd10bc5a4",
+      "source_sha256": "f0a81430f2c9de6dea1429b90c02890f5867ed9a9fa1963e05a809e789ab5e9f"
     }
   ]
 }
