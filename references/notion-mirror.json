@@ -7,7 +7,7 @@
     {
       "source_path": "docs/README.md",
       "page_id": "414c4747-654f-81b1-9705-f419563e1c0e",
-      "source_sha256": "9662e3ca5628aaf92515377fe3b0af321819252857f921e8e61869fccd8b03e9"
+      "source_sha256": "749f57dc54dbe8c8f3c452941bb3cba24ce3deac808741d46e821c5df2ec90b2"
     },
     {
       "source_path": "docs/knowledge/engagement.md",
@@ -43,6 +43,81 @@
       "source_path": "docs/decisions/0001-git-knowledge-notion-mirror.md",
       "page_id": "414c4747-654f-81c8-a43d-fb2c269d80a4",
       "source_sha256": "ff9458b7dc3e0b2f546ab40846635234ac4b997db9d960b1cdddd216f9b3e3c2"
+    },
+    {
+      "source_path": "docs/analysis/ela-maayan-content-evidence-2026-11-10.md",
+      "page_id": "414c4747-654f-81c2-ba1c-c566afe76d51",
+      "source_sha256": "e30e272e5391d850e9da4f719f9cb6d63b8b7c61444319d3591934729577ffc6"
+    },
+    {
+      "source_path": "docs/analysis/ela-maayan-experiments.md",
+      "page_id": "414c4747-654f-81d2-8e3d-cebb7210b3d4",
+      "source_sha256": "98743ddbca370ceb29aa3c57d4fd0e19c39e906dbd309246a38f82306249bbd3"
+    },
+    {
+      "source_path": "docs/architecture/modular-content-system.md",
+      "page_id": "414c4747-654f-81d3-8aec-e32107ee59e5",
+      "source_sha256": "50511182ce7f03ede26f0082a3f3deb446fe25b0aa23f85b13550de283b3770a"
+    },
+    {
+      "source_path": "docs/content/README.md",
+      "page_id": "414c4747-654f-81f2-b4d2-df81265acdda",
+      "source_sha256": "de6e7434ffbd99a62ccacd8085622bf58331f743780be34ba315e93f0e4acf59"
+    },
+    {
+      "source_path": "docs/decisions/0002-modular-types-and-outcome-first-routing.md",
+      "page_id": "414c4747-654f-81dc-a891-e58ecb669896",
+      "source_sha256": "95d2c35f1eb51f5aa5d70dd4b5099a0ef6501e200f31bd25c30589277c5bbe14"
+    },
+    {
+      "source_path": "docs/learnings/README.md",
+      "page_id": "414c4747-654f-8166-a826-e7f56e807ca3",
+      "source_sha256": "6302e1cd6cf538862f6e2e37d37948718c15bfc300ca8c62bd4579a0d3384af3"
+    },
+    {
+      "source_path": "docs/production/product-video-playbook.md",
+      "page_id": "414c4747-654f-812c-80bd-d2f0ec47ce26",
+      "source_sha256": "40c7978ce18b57e2fc53d27d14e28dd03c2c861e592c6c9484a6b67a1c068ed8"
+    },
+    {
+      "source_path": "docs/research/brainstorming-methods.md",
+      "page_id": "414c4747-654f-81f8-b9e2-f0e44a7c95d3",
+      "source_sha256": "ae12e71f70da3ddce5a2823de56d2ead5ebe6aa8ca5a8278b7656232087004a9"
+    },
+    {
+      "source_path": "docs/research/instagram-platform.md",
+      "page_id": "414c4747-654f-8135-b4a1-d3e464e49197",
+      "source_sha256": "af418ce66b8c37f7ef88e6647bdb04be38666b64fbe748d416a093f37fac720d"
+    },
+    {
+      "source_path": "docs/research/video-harness-review.md",
+      "page_id": "414c4747-654f-8176-9bd2-fc5b9eb9670c",
+      "source_sha256": "2ef7ad244a3a314858d0c8b62f0657bb80d25581281df61554610719e6fb142f"
+    },
+    {
+      "source_path": "docs/strategy/social-brief-and-brainstorm.md",
+      "page_id": "414c4747-654f-8188-a59f-fee5758b91b6",
+      "source_sha256": "15d701876ba75aa36b8252fd70e856dce2719f5a0d96a3b219d8da62aeee391f"
+    },
+    {
+      "source_path": "docs/taxonomy/README.md",
+      "page_id": "414c4747-654f-8198-8c97-f90bbe959c1b",
+      "source_sha256": "f8ea747c6d33dd4f16ca0a0557a3341012c87ad9734cc4aaf1251e8a107ad844"
+    },
+    {
+      "source_path": "docs/taxonomy/audience-stages.md",
+      "page_id": "414c4747-654f-812f-87d2-f46d69b4b799",
+      "source_sha256": "b92199e33f2fd07f56370844fac0ac680bfb9d7ee6209c55c3f21ba9adaccd0d"
+    },
+    {
+      "source_path": "docs/taxonomy/type-lifecycle.md",
+      "page_id": "414c4747-654f-8198-be6a-c565ca444d98",
+      "source_sha256": "84699688898e0c7ff2db67f65a5863e66b8883c618d2e2ad3b6976ec42584663"
+    },
+    {
+      "source_path": "docs/validation/modular-content-2026-11-10.md",
+      "page_id": "414c4747-654f-81e6-a2c8-c5774178b0cf",
+      "source_sha256": "66ca330a0161db0e07c4820193df39956be831d5b25a24d066647506b1ec15ce"
     }
   ]
 }

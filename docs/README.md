@@ -4,6 +4,20 @@
 
 ## Read by topic
 
+- [Modular system and skill/docs boundaries](architecture/modular-content-system.md)
+- [Content types and routing](taxonomy/README.md)
+- [Audience stages, purpose and callouts](taxonomy/audience-stages.md)
+- [New-type lifecycle](taxonomy/type-lifecycle.md)
+- [Social brief and brainstorming](strategy/social-brief-and-brainstorm.md)
+- [Instagram/social research](research/instagram-platform.md)
+- [Research source ledger](research/social-evidence-ledger.json)
+- [Our own content evidence](analysis/ela-maayan-content-evidence-2026-11-10.md)
+- [Our next experiments](analysis/ela-maayan-experiments.md)
+- [Product-video playbook](production/product-video-playbook.md)
+- [Video harness source review](research/video-harness-review.md)
+- [Brainstorming methods and provenance](research/brainstorming-methods.md)
+- [Modular routing decision](decisions/0002-modular-types-and-outcome-first-routing.md)
+
 - [Storage and mirror decision](decisions/0001-git-knowledge-notion-mirror.md)
 - [Brand system baseline](brand/system.md)
 - [Brand voice baseline](brand/voice.md)
@@ -14,6 +28,8 @@
 - [Content records and handoffs](content/README.md)
 - [Reusable learning](learnings/README.md)
 - [Mirror maintenance](../workflows/notion-mirror.md)
+
+- [Validation and limits](validation/modular-content-2026-11-10.md)
 
 ## How knowledge changes
 

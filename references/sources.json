@@ -132,5 +132,9 @@
     "el-hamaayan-visual-design": "https://app.notion.com/p/414c4747654f8102844aea35c3c78cf8",
     "el-hamaayan-social-templates": "https://app.notion.com/p/414c4747654f81dda4a3dd04311fe5f4",
     "self-attention": "https://app.notion.com/p/414c4747654f81718c09ea9a16d4e0e7"
-  }
+  },
+  "content_entry_skill": "el-hamaayan-content-router",
+  "content_registry": "registry/content-types.json",
+  "modular_architecture": "docs/architecture/modular-content-system.md",
+  "instagram_source_ledger": "docs/research/social-evidence-ledger.json"
 }

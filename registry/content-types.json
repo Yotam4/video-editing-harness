@@ -1,0 +1,1492 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-11-10",
+  "classification_mode": "transparent_keyword_assistance_not_semantic_ai",
+  "axes": {
+    "format": [
+      "carousel",
+      "short_video",
+      "single_image",
+      "story_sequence"
+    ],
+    "placement": [
+      "feed",
+      "reels",
+      "stories",
+      "cross_channel",
+      "undecided"
+    ],
+    "audience_stage": [
+      "discovery",
+      "evaluation",
+      "action",
+      "existing_user",
+      "not_applicable",
+      "unknown"
+    ],
+    "purpose": [
+      "discovery",
+      "trip_planning",
+      "education",
+      "product_understanding",
+      "brand_connection",
+      "storytelling",
+      "entertainment",
+      "community",
+      "evaluation",
+      "activation",
+      "promotion",
+      "trust"
+    ],
+    "cta": [
+      "none",
+      "save",
+      "share",
+      "comment",
+      "profile_visit",
+      "install",
+      "open_feature",
+      "rsvp",
+      "contact",
+      "learn_more"
+    ],
+    "campaign": [
+      "organic",
+      "paid",
+      "partner",
+      "mixed",
+      "undecided"
+    ],
+    "asset_mode": [
+      "real_photo",
+      "real_footage",
+      "real_ui",
+      "data_graphic",
+      "illustration",
+      "motion",
+      "mixed",
+      "undecided"
+    ]
+  },
+  "rules": [
+    "A recipe is not a permanent skill.",
+    "Format, placement, narrative structure, purpose, audience stage, CTA and campaign are independent axes.",
+    "Suggested stages are planning possibilities, not a claim about audience readiness or a fixed funnel.",
+    "No CTA is a valid explicit choice.",
+    "Do not create a permanent type or skill from one uncertain match.",
+    "Media stays external; Git stores sources and textual knowledge."
+  ],
+  "patterns": [
+    {
+      "id": "place-guide",
+      "name": "Place or route guide",
+      "scope": "ela_maayan",
+      "status": "starter",
+      "formats": [
+        "carousel",
+        "short_video",
+        "single_image"
+      ],
+      "narrative_structure": [
+        "place/context",
+        "what_to_expect",
+        "practical_access",
+        "limitations"
+      ],
+      "possible_purposes": [
+        "trip_planning",
+        "discovery",
+        "education"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "evaluation",
+        "existing_user"
+      ],
+      "required_inputs": [
+        "place_id_or_verified_name",
+        "access_and_parking_sources",
+        "real_place_assets",
+        "observation_date"
+      ],
+      "proof_requirements": [
+        "Verify access, closures, fees and safety-relevant facts from suitable current sources."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "self-attention",
+        "el-hamaayan-social-templates"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "place carousel",
+            "place guide",
+            "spring guide",
+            "קרוסלת מקום",
+            "קרוסלת מעיין"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "parking",
+            "access",
+            "חניה",
+            "גישה"
+          ],
+          "weight": 2
+        },
+        {
+          "phrases": [
+            "spring",
+            "trail",
+            "מעיין",
+            "מסלול"
+          ],
+          "weight": 1
+        }
+      ],
+      "example_briefs": [
+        "A place carousel about one spring, with real photos, parking and verified access."
+      ]
+    },
+    {
+      "id": "route-collection",
+      "name": "Curated places or routes",
+      "scope": "ela_maayan",
+      "status": "starter",
+      "formats": [
+        "carousel",
+        "short_video"
+      ],
+      "narrative_structure": [
+        "selection_promise",
+        "selection_criteria",
+        "distinct_options",
+        "useful_comparison"
+      ],
+      "possible_purposes": [
+        "trip_planning",
+        "discovery"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "evaluation",
+        "existing_user"
+      ],
+      "required_inputs": [
+        "selection_criteria",
+        "verified_place_list",
+        "facts_for_each_option",
+        "real_assets"
+      ],
+      "proof_requirements": [
+        "Verify each recommendation and state collection scope; do not imply comprehensive coverage."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "self-attention",
+        "el-hamaayan-social-templates"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "three springs",
+            "five routes",
+            "places collection",
+            "route collection",
+            "spring collection",
+            "שלושה מעיינות",
+            "חמישה מסלולים",
+            "קרוסלת מעיינות",
+            "רשימת מקומות"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "weekend trips",
+            "טיולים לשבת"
+          ],
+          "weight": 2
+        }
+      ],
+      "example_briefs": [
+        "A carousel of three springs reachable without a car, with distinct verified access options."
+      ]
+    },
+    {
+      "id": "infographic-explainer",
+      "name": "Infographic or concept explainer",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "carousel",
+        "single_image",
+        "short_video"
+      ],
+      "narrative_structure": [
+        "question_or_model",
+        "explanation",
+        "worked_example",
+        "limits"
+      ],
+      "possible_purposes": [
+        "education",
+        "product_understanding"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "evaluation",
+        "existing_user",
+        "not_applicable"
+      ],
+      "required_inputs": [
+        "claim_sources",
+        "key_relationships_or_data",
+        "reader_question"
+      ],
+      "proof_requirements": [
+        "Every numerical relationship or technical statement needs a source; do not use image generation for exact data plots."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "self-attention",
+        "el-hamaayan-social-templates"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "infographic",
+            "data visualization",
+            "אינפוגרפיקה",
+            "אינפוגרפיק"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "diagram explaining",
+            "visual explanation",
+            "הסבר חזותי"
+          ],
+          "weight": 3
+        }
+      ],
+      "example_briefs": [
+        "An infographic explaining how to choose a trail by walking time and difficulty, using verified definitions."
+      ]
+    },
+    {
+      "id": "founder-story",
+      "name": "Founder story",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "carousel",
+        "short_video",
+        "story_sequence"
+      ],
+      "narrative_structure": [
+        "specific_moment",
+        "tension_or_change",
+        "human_payoff"
+      ],
+      "possible_purposes": [
+        "brand_connection",
+        "storytelling",
+        "entertainment"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "existing_user",
+        "not_applicable"
+      ],
+      "required_inputs": [
+        "speaker_or_participants",
+        "true_story",
+        "consented_assets",
+        "approved_quotes"
+      ],
+      "proof_requirements": [
+        "Use genuine events and approved personal details; do not fabricate adversity or testimony."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "self-attention",
+        "el-hamaayan-social-templates"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "founder story",
+            "our founding story",
+            "סיפור הפאונדרים",
+            "סיפור המייסדים",
+            "מי אנחנו"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "founders",
+            "מייסדים"
+          ],
+          "weight": 2
+        }
+      ],
+      "example_briefs": [
+        "Tell a true founder story through a concrete trip moment; no product pitch or CTA required."
+      ]
+    },
+    {
+      "id": "community-story",
+      "name": "Community or creator story",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "carousel",
+        "short_video",
+        "story_sequence"
+      ],
+      "narrative_structure": [
+        "person_and_context",
+        "contribution",
+        "experience",
+        "recognition"
+      ],
+      "possible_purposes": [
+        "community",
+        "brand_connection",
+        "storytelling"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "existing_user",
+        "not_applicable"
+      ],
+      "required_inputs": [
+        "participant_permission",
+        "contribution_details",
+        "approved_quotes_or_assets"
+      ],
+      "proof_requirements": [
+        "Attribute real people accurately; anonymize private conversations unless sharing is authorized."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "self-attention",
+        "el-hamaayan-social-templates"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "community story",
+            "creator spotlight",
+            "community spotlight",
+            "סיפור קהילה",
+            "זרקור ליוצר"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "volunteer",
+            "מתנדב",
+            "יוצר"
+          ],
+          "weight": 2
+        }
+      ],
+      "example_briefs": [
+        "Introduce a creator who contributed a real route, using their approved story."
+      ]
+    },
+    {
+      "id": "feature-walkthrough",
+      "name": "Feature walkthrough",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "carousel",
+        "short_video"
+      ],
+      "narrative_structure": [
+        "user_job",
+        "entry_point",
+        "few_real_steps",
+        "observable_result"
+      ],
+      "possible_purposes": [
+        "product_understanding",
+        "activation",
+        "education"
+      ],
+      "suggested_audience_stages": [
+        "evaluation",
+        "action",
+        "existing_user"
+      ],
+      "required_inputs": [
+        "current_feature_behavior",
+        "real_ui_capture",
+        "target_user_job",
+        "success_state"
+      ],
+      "proof_requirements": [
+        "Demonstrate the actual accessible feature; identify previews and unreleased behavior."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "self-attention",
+        "el-hamaayan-social-templates"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "feature walkthrough",
+            "step by step feature",
+            "feature carousel",
+            "קרוסלת פיצר",
+            "קרוסלת פיצ׳ר",
+            "איך משתמשים בפיצר"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "walkthrough",
+            "הדרכה לפיצר"
+          ],
+          "weight": 3
+        }
+      ],
+      "example_briefs": [
+        "A carousel showing how public transport navigation works, with real screen steps and a clear result."
+      ]
+    },
+    {
+      "id": "comparison",
+      "name": "Decision comparison",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "carousel",
+        "short_video",
+        "single_image"
+      ],
+      "narrative_structure": [
+        "decision_question",
+        "fair_criteria",
+        "evidence",
+        "fit_by_situation"
+      ],
+      "possible_purposes": [
+        "evaluation",
+        "education"
+      ],
+      "suggested_audience_stages": [
+        "evaluation",
+        "action"
+      ],
+      "required_inputs": [
+        "options",
+        "fair_comparison_criteria",
+        "matched_evidence",
+        "constraints"
+      ],
+      "proof_requirements": [
+        "Use comparable versions and conditions; distinguish measured differences from preference."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "self-attention",
+        "el-hamaayan-social-templates"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "comparison",
+            "compare options",
+            "versus",
+            "השוואה",
+            "מה עדיף"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "pros and cons",
+            "יתרונות וחסרונות"
+          ],
+          "weight": 2
+        }
+      ],
+      "example_briefs": [
+        "Compare two ways to navigate to a place, based on real use cases rather than invented superiority."
+      ]
+    },
+    {
+      "id": "launch-announcement",
+      "name": "Launch or commercial announcement",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "carousel",
+        "short_video",
+        "single_image",
+        "story_sequence"
+      ],
+      "narrative_structure": [
+        "relevant_new_thing",
+        "benefit",
+        "proof_or_demo",
+        "availability",
+        "optional_next_step"
+      ],
+      "possible_purposes": [
+        "promotion",
+        "product_understanding",
+        "activation"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "evaluation",
+        "action",
+        "existing_user"
+      ],
+      "required_inputs": [
+        "offer_or_release_details",
+        "availability",
+        "verified_benefits",
+        "destination_if_cta"
+      ],
+      "proof_requirements": [
+        "Verify availability, terms, pricing and any urgency; commercial intent is not a media format."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "self-attention",
+        "el-hamaayan-social-templates"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "launch announcement",
+            "commercial",
+            "launch campaign",
+            "מודעת השקה",
+            "פרסומת",
+            "קמפיין השקה"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "launch",
+            "השקה"
+          ],
+          "weight": 3
+        }
+      ],
+      "example_briefs": [
+        "Announce an available feature with a genuine benefit and clear terms; choose format separately."
+      ]
+    },
+    {
+      "id": "natural-one-shot",
+      "name": "Natural one-shot field video",
+      "scope": "ela_maayan",
+      "status": "starter",
+      "formats": [
+        "short_video"
+      ],
+      "narrative_structure": [
+        "single_live_moment",
+        "continuous_motion",
+        "natural_reveal",
+        "one_overlay_idea"
+      ],
+      "possible_purposes": [
+        "entertainment",
+        "brand_connection",
+        "discovery"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "existing_user",
+        "not_applicable"
+      ],
+      "required_inputs": [
+        "native_vertical_clip",
+        "locked_overlay_copy",
+        "music_rights_if_used"
+      ],
+      "proof_requirements": [
+        "Real continuous footage; preserve framing and participant visibility."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "el-hamaayan-reel"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome",
+        "native_frame_preserved",
+        "rotation_metadata_checked"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "one shot",
+            "one-shot",
+            "single continuous shot",
+            "וואן שוט",
+            "שוט אחד",
+            "שוט רציף"
+          ],
+          "weight": 6
+        },
+        {
+          "phrases": [
+            "natural reel",
+            "ריל טבעי"
+          ],
+          "weight": 2
+        }
+      ],
+      "example_briefs": [
+        "A natural Reel using one continuous clip and a single Hebrew thought; no mandatory sales action."
+      ]
+    },
+    {
+      "id": "field-story",
+      "name": "Field or trip story video",
+      "scope": "ela_maayan",
+      "status": "starter",
+      "formats": [
+        "short_video",
+        "story_sequence"
+      ],
+      "narrative_structure": [
+        "scene",
+        "journey_or_problem",
+        "specific_moments",
+        "earned_payoff"
+      ],
+      "possible_purposes": [
+        "storytelling",
+        "entertainment",
+        "brand_connection"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "existing_user",
+        "not_applicable"
+      ],
+      "required_inputs": [
+        "real_footage",
+        "story_beats",
+        "participants",
+        "rights"
+      ],
+      "proof_requirements": [
+        "Do not imply current access/safety based solely on old footage."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "el-hamaayan-reel"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "field story",
+            "trip story reel",
+            "road trip story",
+            "סיפור מהשטח",
+            "סיפור טיול",
+            "ריל טיול"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "travel montage",
+            "מונטאז טיול"
+          ],
+          "weight": 2
+        }
+      ],
+      "example_briefs": [
+        "Make a short story from a real trip with friends, keeping the humor and human moments."
+      ]
+    },
+    {
+      "id": "app-screen-demo",
+      "name": "App screen demonstration",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "short_video"
+      ],
+      "narrative_structure": [
+        "user_task",
+        "real_input_action",
+        "visible_response",
+        "result"
+      ],
+      "possible_purposes": [
+        "product_understanding",
+        "activation",
+        "education"
+      ],
+      "suggested_audience_stages": [
+        "evaluation",
+        "action",
+        "existing_user"
+      ],
+      "required_inputs": [
+        "current_app_build",
+        "screen_capture",
+        "target_task",
+        "visible_success_state"
+      ],
+      "proof_requirements": [
+        "Real UI and state; distinguish live capture, prototype and conceptual motion."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "el-hamaayan-reel",
+        "el-hamaayan-product-video"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome",
+        "ui_capture_authentic",
+        "demo_state_reproducible"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "app demo",
+            "screen demo",
+            "screen recording",
+            "screen capture",
+            "הדגמת אפליקציה",
+            "דמו אפליקציה",
+            "הקלטת מסך"
+          ],
+          "weight": 6
+        },
+        {
+          "phrases": [
+            "product demo",
+            "דמו מוצר"
+          ],
+          "weight": 3
+        }
+      ],
+      "example_briefs": [
+        "A screen demo showing the exact taps that build a multi-stop trip."
+      ]
+    },
+    {
+      "id": "feature-benefit-video",
+      "name": "Feature benefit video",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "short_video"
+      ],
+      "narrative_structure": [
+        "recognizable_need",
+        "benefit",
+        "real_demo",
+        "outcome"
+      ],
+      "possible_purposes": [
+        "product_understanding",
+        "activation",
+        "promotion"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "evaluation",
+        "action",
+        "existing_user"
+      ],
+      "required_inputs": [
+        "target_need",
+        "current_feature",
+        "real_demo_assets",
+        "availability"
+      ],
+      "proof_requirements": [
+        "Support the benefit with visible behavior; no invented time savings or feature availability."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "el-hamaayan-reel",
+        "el-hamaayan-product-video"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "feature video",
+            "feature benefit",
+            "product feature video",
+            "סרטון פיצר",
+            "סרטון פיצ׳ר",
+            "וידאו פיצר"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "product video",
+            "סרטון מוצר"
+          ],
+          "weight": 2
+        }
+      ],
+      "example_briefs": [
+        "A polished feature video connecting a hiking problem to a real app action and result."
+      ]
+    },
+    {
+      "id": "proof-results-video",
+      "name": "Verified proof or milestone video",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "short_video",
+        "carousel"
+      ],
+      "narrative_structure": [
+        "specific_claim",
+        "evidence",
+        "context_and_timeframe",
+        "meaning"
+      ],
+      "possible_purposes": [
+        "trust",
+        "brand_connection",
+        "promotion"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "evaluation",
+        "existing_user"
+      ],
+      "required_inputs": [
+        "verified_claim",
+        "source_date",
+        "denominator_and_scope",
+        "permission_for_testimony"
+      ],
+      "proof_requirements": [
+        "Every number, testimonial and before/after claim must be attributable and qualified."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "el-hamaayan-reel",
+        "self-attention",
+        "el-hamaayan-social-templates",
+        "el-hamaayan-product-video"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome",
+        "claim_date_and_denominator_visible"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "brag video",
+            "proof video",
+            "milestone video",
+            "results video",
+            "סרטון הישגים",
+            "סרטון הוכחות"
+          ],
+          "weight": 6
+        },
+        {
+          "phrases": [
+            "milestone",
+            "הישג",
+            "אבן דרך"
+          ],
+          "weight": 3
+        }
+      ],
+      "example_briefs": [
+        "A brag video showing a verified milestone with its date and definition, without exaggerated impact."
+      ]
+    },
+    {
+      "id": "motion-explainer",
+      "name": "Motion explainer",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "short_video"
+      ],
+      "narrative_structure": [
+        "concept",
+        "visual_relationship",
+        "progressive_reveal",
+        "example"
+      ],
+      "possible_purposes": [
+        "education",
+        "product_understanding",
+        "brand_connection"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "evaluation",
+        "existing_user",
+        "not_applicable"
+      ],
+      "required_inputs": [
+        "concept_model",
+        "storyboard",
+        "asset_sources",
+        "motion_constraints"
+      ],
+      "proof_requirements": [
+        "Animations may explain concepts; label conceptual UI and never counterfeit a working app state."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "el-hamaayan-reel",
+        "el-hamaayan-product-video"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "motion explainer",
+            "animated explainer",
+            "motion graphics",
+            "אנימציית הסבר",
+            "מושן גרפיקס",
+            "אנימציה"
+          ],
+          "weight": 6
+        },
+        {
+          "phrases": [
+            "animated",
+            "motion"
+          ],
+          "weight": 2
+        }
+      ],
+      "example_briefs": [
+        "Use animation to explain trip planning, keeping real UI behavior distinct from illustration."
+      ]
+    },
+    {
+      "id": "behind-the-scenes",
+      "name": "Behind the scenes",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "short_video",
+        "carousel",
+        "story_sequence"
+      ],
+      "narrative_structure": [
+        "real_work_moment",
+        "specific_detail",
+        "people_or_process",
+        "payoff"
+      ],
+      "possible_purposes": [
+        "brand_connection",
+        "storytelling",
+        "community"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "existing_user",
+        "not_applicable"
+      ],
+      "required_inputs": [
+        "real_process",
+        "participants",
+        "assets_and_permissions"
+      ],
+      "proof_requirements": [
+        "Show an authentic process; do not stage a claim as documentary proof."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "self-attention",
+        "el-hamaayan-social-templates"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "behind the scenes",
+            "behind-the-scenes",
+            "bts",
+            "מאחורי הקלעים"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "making of",
+            "איך הכנו"
+          ],
+          "weight": 2
+        }
+      ],
+      "example_briefs": [
+        "Show the team making a real content piece, with a useful or funny production detail."
+      ]
+    },
+    {
+      "id": "humor-observation",
+      "name": "Humor or relatable observation",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "short_video",
+        "carousel",
+        "single_image",
+        "story_sequence"
+      ],
+      "narrative_structure": [
+        "recognition",
+        "setup",
+        "turn",
+        "payoff"
+      ],
+      "possible_purposes": [
+        "entertainment",
+        "brand_connection"
+      ],
+      "suggested_audience_stages": [
+        "discovery",
+        "existing_user",
+        "not_applicable"
+      ],
+      "required_inputs": [
+        "comic_observation",
+        "tone_limits",
+        "real_or_illustrative_assets"
+      ],
+      "proof_requirements": [
+        "Avoid presenting a fictional joke as a real product or customer claim."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "self-attention",
+        "el-hamaayan-social-templates"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "funny moment",
+            "make us laugh",
+            "humor",
+            "comedy",
+            "בדיחה",
+            "מצחיק",
+            "הומור"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "relatable",
+            "מוכר לכם"
+          ],
+          "weight": 2
+        }
+      ],
+      "example_briefs": [
+        "A funny Reel about friends packing for a hike, with no app pitch and no CTA."
+      ]
+    },
+    {
+      "id": "testimonial-case-study",
+      "name": "Testimonial or case study",
+      "scope": "generic",
+      "status": "starter",
+      "formats": [
+        "carousel",
+        "short_video"
+      ],
+      "narrative_structure": [
+        "person_or_context",
+        "initial_need",
+        "experience",
+        "verified_outcome",
+        "limits"
+      ],
+      "possible_purposes": [
+        "trust",
+        "evaluation",
+        "community"
+      ],
+      "suggested_audience_stages": [
+        "evaluation",
+        "action",
+        "existing_user"
+      ],
+      "required_inputs": [
+        "permission",
+        "approved_quote",
+        "verified_outcome",
+        "context_and_timeframe"
+      ],
+      "proof_requirements": [
+        "No invented testimonial, cherry-picked implied guarantee, or unattributed outcome."
+      ],
+      "cta_policy": "optional",
+      "output_contract": [
+        "concept_brief",
+        "source_and_claim_log",
+        "editable_copy_or_script",
+        "production_plan",
+        "review_checklist",
+        "asset_references"
+      ],
+      "skills": [
+        "el-hamaayan-content-router",
+        "el-hamaayan-social-brainstorm",
+        "el-hamaayan-engagement-lab",
+        "el-hamaayan-visual-design",
+        "el-hamaayan-brand-voice-wordmark",
+        "self-attention",
+        "el-hamaayan-social-templates"
+      ],
+      "quality_checks": [
+        "approved_copy_preserved",
+        "phone_readability_and_rtl",
+        "claims_supported",
+        "one_coherent_outcome"
+      ],
+      "match_signals": [
+        {
+          "phrases": [
+            "testimonial",
+            "case study",
+            "customer story",
+            "סיפור משתמש",
+            "קייס סטאדי",
+            "עדות משתמש"
+          ],
+          "weight": 5
+        },
+        {
+          "phrases": [
+            "user experience",
+            "חוויית משתמש"
+          ],
+          "weight": 2
+        }
+      ],
+      "example_briefs": [
+        "Tell a real user story with an approved quote and verifiable outcome."
+      ]
+    }
+  ]
+}

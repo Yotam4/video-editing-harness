@@ -1,0 +1,21 @@
+{
+  "release_date": "2026-11-10",
+  "delivery": "Repository source and corresponding personal skills; no background sync",
+  "skills": [
+    {
+      "name": "el-hamaayan-product-video",
+      "repository_path": "skills/el-hamaayan-product-video/SKILL.md",
+      "sha256": "7dd1c8fda06a0d9345d00d0a49d718ab3bdeb2e3cf0d280a1a80ead7085e3e63"
+    },
+    {
+      "name": "el-hamaayan-content-router",
+      "repository_path": "skills/el-hamaayan-content-router/SKILL.md",
+      "sha256": "0f4a84363e65acfbf6419241cef0139fa9309abed803276f9b46ef710f6fca6a"
+    },
+    {
+      "name": "el-hamaayan-social-brainstorm",
+      "repository_path": "skills/el-hamaayan-social-brainstorm/SKILL.md",
+      "sha256": "5fc5265573f2609a4cd7addd2c24d041074478fcdc9491e0625efe5d261d7936"
+    }
+  ]
+}

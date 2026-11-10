@@ -1,0 +1,581 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-10",
+  "scope": "Ela Maayan organic Instagram creative and measurement foundations",
+  "storage_policy": "Git canonical; Notion mirror only under Ela Maayan Hub; no media/raw data in this ledger",
+  "evidence_labels": [
+    "platform_fact",
+    "observation",
+    "design_principle",
+    "practitioner_recommendation",
+    "experiment",
+    "owner_preference"
+  ],
+  "maintenance": {
+    "volatile_claims": "Check before a dependent production decision and after material contradiction/UI/policy change.",
+    "suggested_review_days": 90,
+    "review_days_is_platform_rule": false,
+    "promotion_rule": "Keep recommendations as hypotheses until relevant evidence justifies a scoped default."
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "title": "How AI Influences What You See on Facebook and Instagram",
+      "url": "https://about.fb.com/news/2023/06/how-ai-ranks-content-on-facebook-and-instagram/",
+      "publication_date": "2023-06",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary",
+      "supports": "Multiple personalized ranking systems combine predictions and user feedback; sharing is one example, not the entire model.",
+      "limitations": "No complete 2026 weight table or post-specific causal explanation.",
+      "revisit_trigger": "Before using a precise current ranking claim; after a documented change."
+    },
+    {
+      "id": "S02",
+      "title": "Instagram Ranking Explained",
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained/",
+      "publication_date": "2023-05-31",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "original_rate_limited_republication_read",
+      "supports": "Dated surface distinctions: mixed Feed, connection-oriented Stories, Explore discovery and Reels entertainment/discovery.",
+      "limitations": "Original returned 429. Read historical original text republished by WebWire on 2023-06-01; do not call this live 2026 policy.",
+      "revisit_trigger": "Retrieve original or current platform cards before relying on a precise ranking mechanic.",
+      "retrieved_republication": {
+        "url": "https://www.webwire.com/ViewPressRel.asp?aId=305828",
+        "publication_date": "2023-06-01",
+        "status": "original_platform_text_republished; use as historical source"
+      }
+    },
+    {
+      "id": "S03",
+      "title": "Instagram Feed Ranking System Card (historical)",
+      "url": "https://ai.meta.com/tools/system-cards/instagram-feed-ranking/",
+      "publication_date": "2022-02-23",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary",
+      "supports": "Historical demonstration of candidate gathering, predictions, score combination and diversity rules.",
+      "limitations": "Explicit 2022 version; not a complete current description. Current Transparency Center cards were rate-limited.",
+      "revisit_trigger": "Replace historical specifics with a directly verified current card when accessible."
+    },
+    {
+      "id": "S04",
+      "title": "Recommendation Guidelines announcement",
+      "url": "https://about.fb.com/news/2020/08/recommendation-guidelines/",
+      "publication_date": "2020-08",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary_excerpt",
+      "supports": "Content can be allowed while being excluded from recommendation surfaces.",
+      "limitations": "Announcement is old; not an exhaustive current eligibility list.",
+      "revisit_trigger": "Check current policies/account notices before a present eligibility decision."
+    },
+    {
+      "id": "S05",
+      "title": "Helping creators find new audiences (official Portuguese publication)",
+      "url": "https://about.fb.com/br/news/2024/04/ajudando-o-criador-de-conteudo-a-encontrar-novos-publicos/",
+      "publication_date": "2024-04-30",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary",
+      "supports": "Meta announced originality changes, replacement of identical reposts and opportunities for smaller creators.",
+      "limitations": "Announcement is dated; exact rollout behavior, audience test size and thresholds are not verified as current.",
+      "revisit_trigger": "Recheck current original-content guidance before making eligibility assertions."
+    },
+    {
+      "id": "S06",
+      "title": "2026: AI Drives Performance",
+      "url": "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+      "publication_date": "2026-01",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary_excerpt",
+      "supports": "Meta reports more original posts in US Instagram recommendations during Q4 2025.",
+      "limitations": "US aggregate product metric does not forecast Israeli account reach or establish a creative effect.",
+      "revisit_trigger": "A new region-specific or platform update contradicts/changes the reported trend."
+    },
+    {
+      "id": "S07",
+      "title": "The Anatomy of a Great Hook",
+      "url": "https://buffer.com/resources/good-hooks/",
+      "publication_date": "2025-08-12",
+      "checked_date": "2026-11-10",
+      "source_type": "original_practitioner",
+      "access_status": "read_primary",
+      "supports": "Openings can combine text, image and audio and should promise content that actually pays off.",
+      "limitations": "Practitioner synthesis, not a randomized study or a guaranteed timing/word-count rule.",
+      "revisit_trigger": "Our own matched cases contradict the recommendation or the viewer situation changes."
+    },
+    {
+      "id": "S08",
+      "title": "Mosseri original carousel Reel",
+      "url": "https://www.instagram.com/reel/DBOeUmTSmIC/",
+      "publication_date": "2024-10",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_statement",
+      "access_status": "original_rate_limited",
+      "supports": "Original locator for historically attributed second-item resurfacing and music eligibility statements.",
+      "limitations": "No readable original video in this run; no claim to have watched it. Conditional mechanics remain pending direct re-verification.",
+      "revisit_trigger": "Before asserting resurfacing/music eligibility as current; re-access the original or new official explanation."
+    },
+    {
+      "id": "S09",
+      "title": "Colin and Samir with Adam Mosseri: Why Instagram Changed Its Mind on Long Form Video",
+      "url": "https://podcasts.apple.com/us/podcast/why-instagram-changed-its-mind-on-long-form-video/id1379942034?i=1000798194294",
+      "publication_date": "2026-10-26",
+      "checked_date": "2026-11-10",
+      "source_type": "original_interview",
+      "access_status": "publisher_metadata_only",
+      "supports": "Publisher confirms interview, publication date and topics including carousels and sends per reach.",
+      "limitations": "Metadata is not a checked transcript; no quoted ranking advice or universal priority order is established here.",
+      "revisit_trigger": "Read/listen to relevant original segment before detailed attribution.",
+      "original_video_url": "https://www.youtube.com/watch?v=sxizdQ2hRfk",
+      "video_access_status": "unreadable_shell; no listening or transcript inspection claimed"
+    },
+    {
+      "id": "S10",
+      "title": "State of Social Media Engagement 2026, detailed report",
+      "url": "https://buffer.com/resources/state-of-social-media-engagement-2026/",
+      "publication_date": "2026-03-05",
+      "checked_date": "2026-11-10",
+      "source_type": "original_observational_study",
+      "access_status": "read_primary",
+      "supports": "Provider-sample comparisons distinguish engagement per reach from reach and discuss format-dependent patterns.",
+      "limitations": "Multiple analysis windows; observational selection, topic and account confounding. No isolated causal format lift or Ela Maayan forecast.",
+      "revisit_trigger": "When using a numeric benchmark, re-read methodology and match period, numerator, denominator and population."
+    },
+    {
+      "id": "S11",
+      "title": "State of Social Media Engagement 2026, companion landing page",
+      "url": "https://buffer.com/social-media-benchmarks/state-of-social-media-engagement-2026",
+      "publication_date": null,
+      "checked_date": "2026-11-10",
+      "source_type": "original_study_companion",
+      "access_status": "read_primary_excerpt",
+      "supports": "The companion describes a 2024-2025 Buffer account sample and a follower-based engagement definition.",
+      "limitations": "Its denominator is not automatically interchangeable with the detailed Instagram engagement-per-reach table. Publication date was not extracted.",
+      "revisit_trigger": "Any comparison using its headline statistic; resolve definition/version mismatch first."
+    },
+    {
+      "id": "S12",
+      "title": "Introducing Best Practices, an Education Hub for Creators on Instagram",
+      "url": "https://about.fb.com/news/2024/10/best-practices-education-hub-creators-instagram/",
+      "publication_date": "2024-10",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary",
+      "supports": "Professional-dashboard education includes general and personalized guidance across creation, engagement, reach and policies.",
+      "limitations": "Does not establish which tips or features are available in a specific current account.",
+      "revisit_trigger": "Check the actual account dashboard before account-specific recommendations."
+    },
+    {
+      "id": "S13",
+      "title": "New Ways to Create With Music and Collaborate With Friends on Instagram",
+      "url": "https://about.fb.com/news/2023/08/music-and-collabs-on-instagram/",
+      "publication_date": "2023-08-11",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary",
+      "supports": "Announced music support for photo carousels and collaboration capabilities.",
+      "limitations": "Not clearance for every track/use or verification of current collaborator limits, UI or Reels placement.",
+      "revisit_trigger": "Before selecting music, collaborators or publishing controls for a specific job."
+    },
+    {
+      "id": "S14",
+      "title": "Access to the licensed music library on Instagram",
+      "url": "https://help.instagram.com/402084904469945/",
+      "publication_date": null,
+      "checked_date": "2026-11-10",
+      "source_type": "platform_help",
+      "access_status": "login_required",
+      "supports": "Known Help destination for checking account/region/use restrictions.",
+      "limitations": "Readable content not retrieved; no claim that current detailed restrictions were verified.",
+      "revisit_trigger": "Before committing to music for a particular account, format or organic/paid use."
+    },
+    {
+      "id": "S15",
+      "title": "Meta Music Guidelines",
+      "url": "https://www.facebook.com/legal/music_guidelines",
+      "publication_date": null,
+      "checked_date": "2026-11-10",
+      "source_type": "platform_policy",
+      "access_status": "login_or_blocked",
+      "supports": "Known policy destination for planned music use.",
+      "limitations": "No readable policy text retrieved; this ledger does not provide track clearance or legal advice.",
+      "revisit_trigger": "Before music-dependent production or reuse."
+    },
+    {
+      "id": "S16",
+      "title": "Introducing Edits: A Streamlined Video Creation App",
+      "url": "https://about.fb.com/news/2025/04/introducing-edits-streamlined-video-creation-app/",
+      "publication_date": "2025-04-22",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary",
+      "supports": "Describes planning/editing, watermark-free export and distribution-related feedback such as skip rate; page includes later updates.",
+      "limitations": "No universal ranking advantage from using the app, and no guarantee every described feature is available in our account.",
+      "revisit_trigger": "Tool/interface change; before depending on a specific production or analytics feature.",
+      "page_update_date": "2025-12-17"
+    },
+    {
+      "id": "S17",
+      "title": "Visual Hierarchy in UX: Definition",
+      "url": "https://www.nngroup.com/articles/visual-hierarchy-ux-definition/",
+      "publication_date": null,
+      "checked_date": "2026-11-10",
+      "source_type": "original_design_practitioner",
+      "access_status": "read_primary_excerpt",
+      "supports": "Hierarchy can be established through scale, contrast and grouping to communicate intended importance.",
+      "limitations": "UX design guidance is not an isolated Instagram reach experiment. Publication date not extracted.",
+      "revisit_trigger": "If the actual phone-sized creative does not communicate the intended focus."
+    },
+    {
+      "id": "S18",
+      "title": "Ensure High Contrast for Text Over Images",
+      "url": "https://www.nngroup.com/articles/text-over-images/",
+      "publication_date": "2015-10-18",
+      "checked_date": "2026-11-10",
+      "source_type": "original_design_practitioner",
+      "access_status": "read_primary_excerpt",
+      "supports": "Text over imagery needs adequate contrast; image treatment can improve legibility.",
+      "limitations": "Reviewed 2026-01-13 according to source; no evidence for a specific brand color or engagement lift.",
+      "revisit_trigger": "Changing photo/video background, text placement or small-screen rendering."
+    },
+    {
+      "id": "S19",
+      "title": "WCAG 2.2 Understanding SC 1.4.3 Contrast (Minimum)",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "publication_date": null,
+      "checked_date": "2026-11-10",
+      "source_type": "standards_primary",
+      "access_status": "read_primary",
+      "supports": "Normal text benchmark 4.5:1 and large-text benchmark 3:1, with specified exceptions.",
+      "limitations": "A useful design benchmark; not proof of full compliance or a legal determination for a social post.",
+      "revisit_trigger": "New palette/layout or unclear contrast over changing footage."
+    },
+    {
+      "id": "S20",
+      "title": "WAI Captions/Subtitles",
+      "url": "https://www.w3.org/WAI/media/av/captions/",
+      "publication_date": null,
+      "checked_date": "2026-11-10",
+      "source_type": "standards_primary",
+      "access_status": "read_primary_excerpt",
+      "supports": "Captions convey meaningful audio; need depends on the information communicated, not the mere presence of background music.",
+      "limitations": "Use-case guidance; check actual supported delivery and accuracy. No automatic Hebrew feature verification.",
+      "revisit_trigger": "When meaningful speech/sound is added or caption presentation changes."
+    },
+    {
+      "id": "S21",
+      "title": "Recognizing Global Accessibility Awareness Day",
+      "url": "https://about.fb.com/news/2022/05/recognizing-global-accessibility-awareness-day/",
+      "publication_date": "2022-05",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary_excerpt",
+      "supports": "Meta documented automatic captions for Instagram Feed videos at that time.",
+      "limitations": "The dated language list does not verify Hebrew, accuracy or a 2026 interface.",
+      "revisit_trigger": "Before relying on auto-caption availability; manually inspect captions."
+    },
+    {
+      "id": "S22",
+      "title": "Using AI to Improve Photo Descriptions for People Who Are Blind and Visually Impaired",
+      "url": "https://about.fb.com/news/2021/01/using-ai-to-improve-photo-descriptions-for-blind-and-visually-impaired-people/",
+      "publication_date": "2021-01-19",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary",
+      "supports": "Meta describes alternative image descriptions and automatic recognition for people using assistive technology.",
+      "limitations": "Not proof a detailed infographic, named subject or on-image wording will be described accurately.",
+      "revisit_trigger": "When important visual information requires a text alternative; verify current controls.",
+      "page_update_date": "2021-11-02"
+    },
+    {
+      "id": "S23",
+      "title": "W3C Internationalization: Inline markup and bidirectional text in HTML",
+      "url": "https://www.w3.org/International/articles/inline-bidi-markup/",
+      "publication_date": null,
+      "checked_date": "2026-11-10",
+      "source_type": "standards_primary",
+      "access_status": "read_primary",
+      "supports": "Mixed-direction phrases, punctuation and numerals can render incorrectly without directional handling.",
+      "limitations": "HTML techniques are not automatically usable in an image/video renderer; visual QA is still necessary.",
+      "revisit_trigger": "Mixed Hebrew/English/numbers or renderer/font changes."
+    },
+    {
+      "id": "S24",
+      "title": "Test Content With Non-Followers Using Trial Reels",
+      "url": "https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/",
+      "publication_date": "2024-12",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary",
+      "supports": "Trial Reels are designed to show work to non-followers before optional wider sharing.",
+      "limitations": "Not a randomized experiment or a guaranteed lift; check current availability and auto-sharing controls.",
+      "revisit_trigger": "Before planning a trial or making a publishing-setting change."
+    },
+    {
+      "id": "S25",
+      "title": "Inspiring Creativity That Brings People Together, by Adam Mosseri",
+      "url": "https://about.fb.com/news/2025/06/inspiring-creativity-that-brings-people-together/",
+      "publication_date": "2025-06-12",
+      "checked_date": "2026-11-10",
+      "source_type": "platform_primary",
+      "access_status": "read_primary_excerpt",
+      "supports": "Later update describes broader Trial Reels availability and reports observational creator outcomes.",
+      "limitations": "Reported participants/results do not isolate the trial feature as the causal driver of growth.",
+      "revisit_trigger": "Before presenting trial availability or results as current/account-specific.",
+      "page_update_date": "2025-06-26"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Treat ranking as surface-specific and personalized rather than a single universal formula.",
+      "evidence_type": "platform_fact",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "status": "supported_scoped_historical",
+      "application": "Choose a surface and viewer situation before a tactic.",
+      "prohibited_inference": "Exact 2026 signal weights or guaranteed reach."
+    },
+    {
+      "id": "C02",
+      "claim": "Distinguish content permission from recommendation eligibility.",
+      "evidence_type": "platform_fact",
+      "source_ids": [
+        "S04"
+      ],
+      "status": "supported_concept_current_details_need_check",
+      "application": "Check account/content notices before diagnosing poor creative.",
+      "prohibited_inference": "Every allowed post will be recommended."
+    },
+    {
+      "id": "C03",
+      "claim": "Prioritize our own meaningful contribution and verify borrowed material separately.",
+      "evidence_type": "recommendation",
+      "source_ids": [
+        "S05",
+        "S06"
+      ],
+      "status": "supported_direction",
+      "application": "Use original footage, real product demos and distinctive explanation.",
+      "prohibited_inference": "A reused template is automatically unoriginal or credit alone clears rights."
+    },
+    {
+      "id": "C04",
+      "claim": "Opening promise and actual payoff should agree.",
+      "evidence_type": "practitioner_recommendation",
+      "source_ids": [
+        "S07"
+      ],
+      "status": "testable_default",
+      "application": "Generate relevant hook options, avoid bait and deliver early value.",
+      "prohibited_inference": "Exact hook timing/word count guarantees performance."
+    },
+    {
+      "id": "C05",
+      "claim": "Carousel slide 2 should be understandable alone while advancing the original sequence.",
+      "evidence_type": "design_principle",
+      "source_ids": [
+        "S07",
+        "S17"
+      ],
+      "status": "editorial_default",
+      "application": "Review both 1-to-rest and 2-to-rest reading paths.",
+      "prohibited_inference": "Every viewer gets two carousel impressions."
+    },
+    {
+      "id": "C06",
+      "claim": "Carousel second-item resurfacing is conditional historically attributed guidance, pending direct refresh.",
+      "evidence_type": "platform_statement",
+      "source_ids": [
+        "S08",
+        "S09"
+      ],
+      "status": "pending_primary_access",
+      "application": "Use may/conditional wording if discussing inherited guidance; do not assert new current mechanics.",
+      "prohibited_inference": "Every carousel is shown exactly twice."
+    },
+    {
+      "id": "C07",
+      "claim": "Photo carousels support music; a music-in-Reels placement claim requires separate current verification.",
+      "evidence_type": "platform_fact",
+      "source_ids": [
+        "S13",
+        "S08"
+      ],
+      "status": "support_confirmed_placement_pending",
+      "application": "Choose music by fit, availability and rights, not an automatic boost claim.",
+      "prohibited_inference": "Music guarantees distribution or is cleared for any business use."
+    },
+    {
+      "id": "C08",
+      "claim": "Format comparisons depend on the metric, sample and data window.",
+      "evidence_type": "observation",
+      "source_ids": [
+        "S10",
+        "S11"
+      ],
+      "status": "supported_observational",
+      "application": "Use broad studies as hypotheses and compare similar own posts.",
+      "prohibited_inference": "Carousels universally outperform Reels; combine incompatible denominators."
+    },
+    {
+      "id": "C09",
+      "claim": "Use a sustainable cadence and account-specific guidance rather than a universal posting quota.",
+      "evidence_type": "recommendation",
+      "source_ids": [
+        "S10",
+        "S12"
+      ],
+      "status": "editorial_default",
+      "application": "Protect the chosen content job and production quality while testing a cadence.",
+      "prohibited_inference": "Observed frequent publishers prove a causal mandatory volume threshold."
+    },
+    {
+      "id": "C10",
+      "claim": "Music-specific account, placement, region and reuse checks remain a production dependency.",
+      "evidence_type": "recommendation",
+      "source_ids": [
+        "S13",
+        "S14",
+        "S15"
+      ],
+      "status": "rights_sources_inaccessible",
+      "application": "Verify actual availability and intended use before relying on a track.",
+      "prohibited_inference": "A track visible in an editor is cleared for every future use."
+    },
+    {
+      "id": "C11",
+      "claim": "Use editing tools for clear planning, proof and useful feedback.",
+      "evidence_type": "recommendation",
+      "source_ids": [
+        "S16"
+      ],
+      "status": "feature_scope_supported",
+      "application": "Storyboard product demonstrations; review available skip/watch feedback.",
+      "prohibited_inference": "Editing in a named app receives an undocumented ranking bonus."
+    },
+    {
+      "id": "C12",
+      "claim": "Create a readable hierarchy and adequate contrast over the actual image or moving background.",
+      "evidence_type": "design_principle",
+      "source_ids": [
+        "S17",
+        "S18",
+        "S19"
+      ],
+      "status": "supported_design_benchmark",
+      "application": "Inspect at phone size and across representative video frames.",
+      "prohibited_inference": "One color or contrast score predicts Instagram reach or establishes full accessibility compliance."
+    },
+    {
+      "id": "C13",
+      "claim": "Make meaningful speech and sound understandable through accurate supported captions/text.",
+      "evidence_type": "design_principle",
+      "source_ids": [
+        "S20",
+        "S21"
+      ],
+      "status": "supported_accessibility_practice",
+      "application": "Review names, numerals, speakers and sound cues manually.",
+      "prohibited_inference": "Old auto-caption announcements prove Hebrew support or perfect accuracy now."
+    },
+    {
+      "id": "C14",
+      "claim": "Provide meaningful text alternatives for important image information when supported.",
+      "evidence_type": "design_principle",
+      "source_ids": [
+        "S22"
+      ],
+      "status": "supported_accessibility_practice",
+      "application": "Describe relevant subject and essential information; do not trust automatic descriptions blindly.",
+      "prohibited_inference": "Automatic alt text necessarily reads every infographic label."
+    },
+    {
+      "id": "C15",
+      "claim": "Mixed Hebrew/English, punctuation and numerals need renderer-aware bidi handling and visual QA.",
+      "evidence_type": "design_principle",
+      "source_ids": [
+        "S23"
+      ],
+      "status": "supported",
+      "application": "Inspect actual exports rather than assuming centered text is correct RTL.",
+      "prohibited_inference": "An HTML solution automatically fixes every raster/video tool."
+    },
+    {
+      "id": "C16",
+      "claim": "Trial Reels can support exploration but do not create a randomized A/B test.",
+      "evidence_type": "platform_fact_and_method_recommendation",
+      "source_ids": [
+        "S24",
+        "S25"
+      ],
+      "status": "supported_tool_intent_with_limits",
+      "application": "Check availability and settings; compare fixed-age outcomes with a matched baseline.",
+      "prohibited_inference": "Guaranteed uplift or silent authorization to publish/auto-share."
+    },
+    {
+      "id": "C17",
+      "claim": "Choose one primary intended outcome but allow no CTA.",
+      "evidence_type": "owner_preference",
+      "source_ids": [],
+      "status": "binding_owner_policy",
+      "application": "A story, humor or scenic moment can be complete without an install/sales request.",
+      "prohibited_inference": "A funnel framework overrides the actual brief."
+    },
+    {
+      "id": "C18",
+      "claim": "Keep shares distinct from DM sends, views from reach, raw counts from unique people, and average watch time from completion.",
+      "evidence_type": "measurement_principle",
+      "source_ids": [
+        "S10",
+        "S11",
+        "S16"
+      ],
+      "status": "definition_guardrail",
+      "application": "Read provider definitions and compare same-age matched populations.",
+      "prohibited_inference": "Fill unavailable private metrics from public visible counts."
+    }
+  ],
+  "unresolved_access": [
+    {
+      "topic": "Current system cards",
+      "urls": [
+        "https://transparency.meta.com/features/explaining-ranking/ig-feed/",
+        "https://transparency.meta.com/features/explaining-ranking/ig-feed-recommendations/",
+        "https://transparency.meta.com/features/explaining-ranking/ig-reels-chaining/"
+      ],
+      "access_status": "429",
+      "consequence": "No current detailed predictions/weights quoted from these cards."
+    },
+    {
+      "topic": "New originality guidance",
+      "urls": [
+        "https://creators.instagram.com/blog/rewarding-original-creators-on-instagram"
+      ],
+      "access_status": "429",
+      "consequence": "Reported 2026 expansion to photos/carousels is not promoted to verified current policy."
+    },
+    {
+      "topic": "September 2026 Mosseri ranking series and October clip",
+      "urls": [
+        "https://www.instagram.com/p/Dc1CcoYgZD_/",
+        "https://www.instagram.com/reel/DdENi2fP59I/",
+        "https://www.instagram.com/reel/DfAik8-piUm/"
+      ],
+      "access_status": "429",
+      "consequence": "Located using secondary research; exact spoken guidance not adopted as a verified formula."
+    },
+    {
+      "topic": "Publishing-account capabilities",
+      "urls": [],
+      "access_status": "not_inspected",
+      "consequence": "Hebrew auto-captions, music/editor controls, current limits and account features need real-interface confirmation."
+    }
+  ]
+}

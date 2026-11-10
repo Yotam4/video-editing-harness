@@ -8,6 +8,8 @@ Skills and versioned knowledge for carousels, brand work and video editing.
 | Notion under the Ela Maayan Hub | Reading mirror; existing content-bank publishing status remains operational |
 | Drive | Photos, footage, production files, variants and exports; Git records stable references |
 
+Start new social work with `el-hamaayan-content-router`: clarify the outcome, classify the content, brainstorm proportionately, then load the matching production modules. Use the [type registry](registry/content-types.json), [taxonomy](docs/taxonomy/README.md) and [architecture](docs/architecture/modular-content-system.md). Unfamiliar structures become candidates for review rather than automatic new skills.
+
 Start at the [knowledge home](docs/README.md), then read [AGENTS.md](AGENTS.md) and the [skill catalog](skills/README.md). Knowledge is available in the checkout without a Notion connection.
 
 Edit and commit knowledge in Git first. Refresh the existing Notion mirror under the Ela Maayan Hub after the commit, including a source permalink. Reconcile direct Notion edits into Git before refreshing them. There is no background sync.
@@ -15,8 +17,10 @@ Edit and commit knowledge in Git first. Refresh the existing Notion mirror under
 ## Layout
 
 - `docs/`: knowledge, brand, decisions, content records and learning.
-- `skills/`: eight first-party procedures and two scripts, with local knowledge pointers.
+- `skills/`: existing first-party procedures, plus routing, brainstorming and product-video entry procedures, with local knowledge pointers.
 - `references/`: stable sources, import hashes and mirror mapping.
+- `registry/`: modular types and schema.
+- `scripts/`: explainable classification and registry checks.
 - `templates/`: reusable forms for Git documents.
 - `workflows/`: production and mirror maintenance.
 - `.work/`: ignored downloads, render scratch and temporary raw metric exports.

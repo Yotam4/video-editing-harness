@@ -2,6 +2,9 @@
 
 | Skill | Role |
 | --- | --- |
+| el-hamaayan-content-router | Entry point, classification, recipe selection and new-type candidates |
+| el-hamaayan-social-brainstorm | Outcome-first concept exploration and creative handoff |
+| el-hamaayan-product-video | Real app demos, feature/proof films and motion-production QA |
 | el-hamaayan-engagement-lab | Own-post evidence, goals and creative brief |
 | self-attention | Carousel entry points, pacing and payoff |
 | el-hamaayan-visual-design | Imagery, hierarchy, contrast, RTL and image-model briefs |
