@@ -1,15 +1,13 @@
 {
-  "knowledge_home": "https://app.notion.com/p/414c4747654f81b19705f419563e1c0e",
+  "knowledge_home": "docs/README.md",
   "social_operations": "https://app.notion.com/p/3bfc4747654f814e80eac08f514df19a",
   "content_bank": "https://app.notion.com/p/df4d5485b64f49c1a4feb28387ee3b58",
-  "brand_knowledge": "https://app.notion.com/p/3c1c4747654f81efbdc5db33cba4bc85",
-  "brand_voice": "https://app.notion.com/p/3afc4747654f816c8a81ee297986e879",
   "brand_drive_folder": "https://drive.google.com/drive/folders/1XiY5pMG8HIgtzk5SewHeamC8-7T9j6A8",
   "knowledge_sources": {
-    "el-hamaayan-engagement-lab": "https://app.notion.com/p/414c4747654f815fa6fcfddf80688797",
-    "el-hamaayan-visual-design": "https://app.notion.com/p/414c4747654f8102844aea35c3c78cf8",
-    "el-hamaayan-social-templates": "https://app.notion.com/p/414c4747654f81dda4a3dd04311fe5f4",
-    "self-attention": "https://app.notion.com/p/414c4747654f81718c09ea9a16d4e0e7"
+    "el-hamaayan-engagement-lab": "docs/knowledge/engagement.md",
+    "el-hamaayan-visual-design": "docs/knowledge/visual-design.md",
+    "el-hamaayan-social-templates": "docs/knowledge/social-templates.md",
+    "self-attention": "docs/knowledge/carousel-attention.md"
   },
   "media_sources": [
     {
@@ -122,5 +120,17 @@
       "source_reference": "reference-registry.md",
       "source_url": "https://docs.google.com/document/d/1WFqfLihpE8iwlG8HGmggywrJuQ8hOatXHZCye_zhlYw/edit"
     }
-  ]
+  ],
+  "notion_mirror_home": "https://app.notion.com/p/414c4747654f81b19705f419563e1c0e",
+  "notion_hub": "https://app.notion.com/p/3d9c4747654f81c4b56fd33a996f92b8",
+  "brand_knowledge_source": "https://app.notion.com/p/3c1c4747654f81efbdc5db33cba4bc85",
+  "brand_voice_source": "https://app.notion.com/p/3afc4747654f816c8a81ee297986e879",
+  "brand_knowledge": "docs/brand/system.md",
+  "brand_voice": "docs/brand/voice.md",
+  "knowledge_mirrors": {
+    "el-hamaayan-engagement-lab": "https://app.notion.com/p/414c4747654f815fa6fcfddf80688797",
+    "el-hamaayan-visual-design": "https://app.notion.com/p/414c4747654f8102844aea35c3c78cf8",
+    "el-hamaayan-social-templates": "https://app.notion.com/p/414c4747654f81dda4a3dd04311fe5f4",
+    "self-attention": "https://app.notion.com/p/414c4747654f81718c09ea9a16d4e0e7"
+  }
 }

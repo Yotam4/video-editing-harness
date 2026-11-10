@@ -1,11 +1,11 @@
-# Content record template — fill in Notion
+# Content record — save under docs/content/<slug>/
 
-- Existing item URL:
+- Operational Notion item URL:
 - Audience and situation:
 - Intended outcome:
 - CTA, if useful:
 - Format and reference family:
-- Verified facts and source URLs:
+- Verified facts and sources:
 - Approved copy:
 - Slide map or video plan:
 - Drive source IDs/URLs and versions:
@@ -13,6 +13,6 @@
 - Harness commit used:
 - Feedback and changes:
 - Open decisions:
-- Publishing status:
+- Publishing status source:
 
-Keep the filled record in Notion. This repository contains only the empty form.
+Commit the filled record in Git, then refresh its mirror under the Ela Maayan Hub.

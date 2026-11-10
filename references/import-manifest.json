@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-11-10",
-  "scope": "Eight existing first-party creative skills; procedure and script files preserved byte-for-byte. Knowledge references point to Notion. No client installation or automatic sync performed.",
+  "scope": "Eight first-party procedure files and two scripts preserved byte-for-byte. Canonical knowledge lives in docs/ with a Notion mirror under the Ela Maayan Hub. No client installation or automatic sync performed.",
   "files": [
     {
       "path": "skills/el-hamaayan-logo-variation-system/SKILL.md",

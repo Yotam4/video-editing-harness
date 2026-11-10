@@ -1,14 +1,14 @@
-# Decision template — fill in Notion
+# Decision — save under docs/decisions/
 
 - Date:
 - Status: proposed / accepted / superseded
-- Topic and context:
+- Context:
 - Decision:
 - Rationale and evidence:
-- Alternatives considered:
-- Affected content or brand versions:
-- Replaces which earlier decision:
-- Reusable procedure change, if any:
-- Git change URL, if applicable:
+- Alternatives:
+- Affected content/brand versions:
+- Earlier decision superseded:
+- Procedure change, if any:
+- External sources:
 
-Do not move the full decision into Git. Link its Notion record from a related procedure change.
+Commit the complete decision in Git first, then refresh its Notion mirror under the Ela Maayan Hub.

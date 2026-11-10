@@ -1,5 +1,5 @@
-# Knowledge reference
+# Local knowledge reference
 
-Source: [adaptation-and-versioning.md](https://app.notion.com/p/414c4747654f81dda4a3dd04311fe5f4).
+Read the canonical [adaptation-and-versioning.md](../../../docs/knowledge/social-templates.md) document in this checkout, particularly the section named `adaptation-and-versioning.md`.
 
-Open the Notion page and read the section named `adaptation-and-versioning.md`. Its content is a dated source snapshot; use current linked knowledge when available. Keep findings, examples and decisions in Notion. Fetch media through its stable Drive source, outside Git.
+Git is authoritative. Notion is its mirror under the Ela Maayan Hub. Media and raw datasets remain external.

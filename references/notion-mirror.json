@@ -1,0 +1,48 @@
+{
+  "canonical_system": "git",
+  "hub_page_id": "3d9c4747-654f-81c4-b56f-d33a996f92b8",
+  "mirror_home_page_id": "414c4747-654f-81b1-9705-f419563e1c0e",
+  "mode": "explicit_session_refresh_after_commit",
+  "pages": [
+    {
+      "source_path": "docs/README.md",
+      "page_id": "414c4747-654f-81b1-9705-f419563e1c0e",
+      "source_sha256": "9662e3ca5628aaf92515377fe3b0af321819252857f921e8e61869fccd8b03e9"
+    },
+    {
+      "source_path": "docs/knowledge/engagement.md",
+      "page_id": "414c4747-654f-815f-a6fc-fddf80688797",
+      "source_sha256": "7320d32e92372d2677690f32b4fe4b404bfffee047be222c23cf5b7e70b8e963"
+    },
+    {
+      "source_path": "docs/knowledge/visual-design.md",
+      "page_id": "414c4747-654f-8102-844a-ea35c3c78cf8",
+      "source_sha256": "d91bc4bc189186f0d1a58b41ff116d46ac7089543c0710456d391a70e6d646fc"
+    },
+    {
+      "source_path": "docs/knowledge/social-templates.md",
+      "page_id": "414c4747-654f-81dd-a4a3-dd04311fe5f4",
+      "source_sha256": "2d3705aa0c3036c374dbc02650b79eddaa4c93c01f9044aaf0facd5f582f32a1"
+    },
+    {
+      "source_path": "docs/knowledge/carousel-attention.md",
+      "page_id": "414c4747-654f-8171-8c09-ea9a16d4e0e7",
+      "source_sha256": "7b9dbab2f176b8d12d74c42ba07035402209dfa58b49a9e60f0e1f5a2a24620a"
+    },
+    {
+      "source_path": "docs/brand/system.md",
+      "page_id": "414c4747-654f-81d8-8295-f50c7b5ac2bb",
+      "source_sha256": "241b0d9a44d5dc9c955809db99765c65b0f70623835d98c5448d35f1d371bf51"
+    },
+    {
+      "source_path": "docs/brand/voice.md",
+      "page_id": "414c4747-654f-817e-9558-d7a3fa963f47",
+      "source_sha256": "92d1aa8f1959b074489b47c2f6eed46ea22e7e7aab9653c4a4b9cb03950f1585"
+    },
+    {
+      "source_path": "docs/decisions/0001-git-knowledge-notion-mirror.md",
+      "page_id": "414c4747-654f-81c8-a43d-fb2c269d80a4",
+      "source_sha256": "ff9458b7dc3e0b2f546ab40846635234ac4b997db9d960b1cdddd216f9b3e3c2"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
-# Session handoff template — fill in Notion
+# Session handoff — save under docs/content/<slug>/
 
 - Current item and version:
 - What changed and why:
-- Exact approved wording/source:
+- Approved wording:
 - What is approved:
 - What remains unresolved:
-- Current Drive source and output links:
-- Checks completed and remaining limitations:
+- Drive source/output references:
+- Checks and limitations:
 - Harness commit:
 - Next concrete step:
 
-Keep the filled handoff on the existing Notion content item.
+Commit the handoff in Git and refresh its mirror under the Ela Maayan Hub.

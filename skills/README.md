@@ -11,6 +11,6 @@
 | el-hamaayan-logo-variation-system | Logo directions, refinement and evaluation |
 | el-hamaayan-brand-archive-system | Versioned brand boards, extracted assets and rationale |
 
-Each skill folder has a `SKILL.md`. Instructions and scripts are first-party source snapshots; knowledge reference files are pointers to Notion. Media stays in Drive. Read the repository AGENTS.md for storage overrides and the optional-CTA policy before using an imported instruction.
+Each skill folder has a `SKILL.md`. Its procedures and scripts are first-party source snapshots. Reference files resolve to canonical local knowledge under `docs/`; Notion mirrors that knowledge under the Ela Maayan Hub. Media stays in Drive. Root AGENTS.md governs storage and optional CTAs.
 
-These folders can be read directly by an agent. This import does not install them into other clients or create automatic synchronization with installed personal skills. When a skill changes, record the evidence link and update the clients intentionally; avoid independently editing multiple copies.
+These folders are directly readable by agents; no other client's installation or automatic sync is implied. Record evidence and intentional version updates rather than independently editing multiple copies.

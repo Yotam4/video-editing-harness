@@ -1,1 +1,1 @@
-Read and follow AGENTS.md at the repository root, then consult references/sources.json and skills/README.md. The skill folders contain instructions, scripts and pointers; knowledge is in Notion and media is in Drive.
+Read AGENTS.md and docs/README.md first. Git holds canonical skills and knowledge; Notion mirrors them only under the Ela Maayan Hub. Media stays in Drive, referenced by stable IDs/URLs. Use references/sources.json and skills/README.md to navigate.

@@ -1,5 +1,5 @@
-# Knowledge reference
+# Local knowledge reference
 
-Source: [our-findings.md](https://app.notion.com/p/414c4747654f815fa6fcfddf80688797).
+Read the canonical [our-findings.md](../../../docs/knowledge/engagement.md) document in this checkout, particularly the section named `our-findings.md`.
 
-Open the Notion page and read the section named `our-findings.md`. Its content is a dated source snapshot; use current linked knowledge when available. Keep findings, examples and decisions in Notion. Fetch media through its stable Drive source, outside Git.
+Git is authoritative. Notion is its mirror under the Ela Maayan Hub. Media and raw datasets remain external.
