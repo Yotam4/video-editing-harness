@@ -10,6 +10,7 @@
 - [New-type lifecycle](taxonomy/type-lifecycle.md)
 - [Social brief and brainstorming](strategy/social-brief-and-brainstorm.md)
 - [Instagram/social research](research/instagram-platform.md)
+- [Instagram posting funnels for Reels, carousels and Stories](strategy/instagram-posting-funnels.md)
 - [Research source ledger](research/social-evidence-ledger.json)
 - [Our own content evidence](analysis/ela-maayan-content-evidence-2026-11-10.md)
 - [Our next experiments](analysis/ela-maayan-experiments.md)
