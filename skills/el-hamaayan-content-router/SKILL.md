@@ -22,6 +22,8 @@ Read `docs/architecture/modular-content-system.md` for the boundaries and `docs/
 
 ## Choose the work path
 
+- Instagram distribution planning or review: load the matching section of `docs/strategy/instagram-posting-funnels.md`. Record the viewer situation, opening, payoff, optional action and primary measure when useful to the brief.
+
 - New or unclear concept: use `el-hamaayan-social-brainstorm` to explore genuinely different approaches and converge on a brief.
 - Own-post evidence: use `el-hamaayan-engagement-lab`; distinguish findings, preferences and experiments.
 - Carousel: combine `self-attention`, `el-hamaayan-visual-design` and `el-hamaayan-social-templates` with the selected recipe.
