@@ -327,6 +327,18 @@
       "limitations": "Reported participants/results do not isolate the trial feature as the causal driver of growth.",
       "revisit_trigger": "Before presenting trial availability or results as current/account-specific.",
       "page_update_date": "2025-06-26"
+    },
+    {
+      "id": "S26",
+      "title": "Instagram Reel, carousel and Story ranking diagrams by @swastik.nandakumar",
+      "url": null,
+      "publication_date": null,
+      "checked_date": "2026-11-11",
+      "source_type": "practitioner_reference",
+      "access_status": "three_user_supplied_screenshots_reviewed",
+      "supports": "A simple creative-planning sequence based on the viewer's possible next action for each format.",
+      "limitations": "The screens show October 27 without a year. The original permalink was not identified. The diagrams do not establish current distribution order, thresholds or deterministic effects.",
+      "revisit_trigger": "If citing the original post or adopting any specific platform claim."
     }
   ],
   "claims": [
@@ -540,6 +552,45 @@
       "status": "definition_guardrail",
       "application": "Read provider definitions and compare same-age matched populations.",
       "prohibited_inference": "Fill unavailable private metrics from public visible counts."
+    },
+    {
+      "id": "C19",
+      "claim": "Use early Reel viewing as a diagnostic and compare it with watch time and payoff.",
+      "evidence_type": "practitioner_recommendation",
+      "source_ids": [
+        "S01",
+        "S05",
+        "S16",
+        "S26"
+      ],
+      "status": "scoped_editorial_application",
+      "application": "Compare early viewing and skip rates within comparable publication ages, durations and distribution modes.",
+      "prohibited_inference": "A fixed three-second rule, automatic cutoff, or uniform test audience."
+    },
+    {
+      "id": "C20",
+      "claim": "Build carousel entry points that deliver useful context and progression.",
+      "evidence_type": "practitioner_recommendation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S08",
+        "S26"
+      ],
+      "status": "scoped_editorial_application",
+      "application": "Check slides 1 and 2 alone and in sequence, then compare post-level saves and shares per reach.",
+      "prohibited_inference": "A guaranteed followers-first sequence, automatic reach stop, or slide-level retention from aggregate post views."
+    },
+    {
+      "id": "C21",
+      "claim": "Instagram's historical Stories explanation includes viewing and engagement history, closeness, and predictions of opening, replying or moving on.",
+      "evidence_type": "platform_fact",
+      "source_ids": [
+        "S02"
+      ],
+      "status": "supported_scoped_historical",
+      "application": "Plan a timely opening, useful continuation, and optional response. Use available frame/action metrics with documented denominators.",
+      "prohibited_inference": "A guaranteed ranking boost from one sticker tap or a reach penalty for one skip."
     }
   ],
   "unresolved_access": [
