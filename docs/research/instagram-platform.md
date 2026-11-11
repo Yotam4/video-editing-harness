@@ -2,6 +2,8 @@
 
 Checked: **2026-11-10**. Scope: creative and measurement decisions for Ela Maayan, primarily organic Instagram. Git is canonical; Notion is the reading mirror under the Ela Maayan Hub. This is a knowledge document, not a hidden ranking recipe. The machine-readable [evidence ledger](social-evidence-ledger.json) holds claims, sources, access limitations and revisit triggers.
 
+For practical Reel, carousel, and Story paths, use the [Instagram posting funnels](../strategy/instagram-posting-funnels.md).
+
 ## How to use this research
 
 Start with the intended viewer experience and outcome. Choose a surface, content type, evidence and production approach. Then use the applicable skill. Platform facts constrain a plan; practitioner ideas and population studies generate hypotheses; our own matched examples help choose the next version. None supplies a guaranteed reach forecast.
