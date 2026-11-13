@@ -1,6 +1,6 @@
 # Product-video playbook
 
-Version: 1. Checked: 2026-11-10. Status: first-party planning and production guidance; no new video renderer has been installed or exercised by this research.
+Version: 2. Checked: 2026-11-13. Status: first-party planning and production guidance.
 
 Use this when showing Ela Maayan's actual product through a screen demo, feature story, launch film, verified proof/milestone film or motion explainer. Keep the existing natural one-shot Reel workflow for an actual field clip; a video being vertical does not make it a product demo.
 
@@ -84,6 +84,18 @@ Build these only when a production task needs them. Each module should accept th
 
 Use a coherent motion vocabulary. A different effect in every scene rarely clarifies the story. If narration must be understood, its cadence can lead; if the film is music-led, align meaningful events to a measured beat map only when the track supports one. A beat never justifies removing text before it can be read.
 
+### Choreograph the viewer's attention
+
+Use this when motion explains an action, a relationship or a change of state.
+
+1. Choose the first thing the viewer should see and the result they should remember. Keep an anchor such as the phone frame, map pin, card or presenter stable across the change.
+2. Set the key poses: recognizable start, action or reveal, settled result. Decide where the eye goes in each pose. Stage cues in order: a brief lead-in or tap cue, the main movement, then a supporting accent only if it clarifies the result. Use easing that fits the move and hold the result long enough to read at phone size.
+3. For a motion comparison, keep the input, crop, scale and labels matched. Change one behavior so the viewer can see its effect. Use a side-by-side when both states stay legible, or play the two states in sequence when real UI needs the full phone width.
+4. Match the timing to its job. Keep familiar in-app reactions quick and reserve stronger flourishes for moments that benefit from emphasis. The duration of an app microinteraction, an editorial transition and a readable text hold are three different choices. Keep the actual app response and any editorial motion distinguishable.
+5. Check a muted pass at phone size. The focal point, action and result should still read. Check the lead-in, action frame and settled state, especially when a Hebrew heading, a crop or a callout changes near the same time.
+
+**Reference, visually reviewed 2026-11-13.** In Charles Liu's 31.5-second [UX and animation Reel](https://www.instagram.com/reel/DfphRvFBx54/), the presenter, running list and timer stay in place as a lower panel changes examples. Around 0:04, one card comes forward from a grid to demonstrate staging. Around 0:05, a single timeline shows key poses. Around 0:07, matched tracks compare constant speed and easing. Around 0:10, matching save buttons isolate secondary feedback. The panel disappears for the close, with the timer stopped around 0:27. The small list has weak contrast against the live background. Use the stable layout and isolated comparison as reference techniques. Give essential copy a stable, high-contrast background and set its hold by phone readability. The review sampled visual playback with audio muted. The creator's caption credits animation and UX sources, including [Raphael Salaja's UI Wiki](https://ui-wiki.org/) and [Emil Kowalski's guidance on purposeful motion and frequency of use](https://emilkowal.ski/ui/great-animations).
+
 For a future Remotion implementation, official docs provide parameterized inputs, frame-based animation, timeline composition, transitions and caption tools. Keep runtime/package versions consistent and consult their current API rather than copying remembered snippets. Choosing Remotion does not remove the need for capture, proof, art direction or visual review.
 
 ## 6. Review in increasing cost
@@ -124,7 +136,7 @@ A narrow skill can route a product-video request to this document without repeat
 6. Render and review observable acceptance conditions; preserve approved decisions through revision.
 7. Save documents in Git, files in Drive, then refresh the Notion mirror only under the Ela Maayan Hub.
 
-The corresponding `el-hamaayan-product-video` procedure is provided by this harness. No new renderer has been installed or exercised by this research.
+The corresponding `el-hamaayan-product-video` procedure is provided by this harness.
 
 ## Sources and scope
 

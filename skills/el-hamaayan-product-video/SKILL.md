@@ -21,6 +21,8 @@ Write one visual argument and a compact scene contract: viewer job, source/build
 
 Offer genuinely different treatments when requested. Make motion serve an action or relationship: context-to-detail crop, real tap indicator, focus highlight, shared element, caption reveal, verified counter or map sequence. Do not animate merely to look busy, impose fixed scene counts/durations, or let a beat cut off readable Hebrew.
 
+For an animated demo or carousel insert, use [the motion staging guidance](../../docs/production/product-video-playbook.md#choreograph-the-viewers-attention). Set the start, action and settled result, keep a visual anchor, and check the sequence muted at phone size.
+
 Select the smallest adequate production tool. Use the existing `el-hamaayan-reel` for natural footage with simple overlays. Consult current official tooling docs before writing renderer code; no new renderer, package or music license is implied by this skill.
 
 ## Execute and inspect
