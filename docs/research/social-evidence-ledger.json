@@ -339,6 +339,31 @@
       "supports": "A simple creative-planning sequence based on the viewer's possible next action for each format.",
       "limitations": "The screens show October 27 without a year. The original permalink was not identified. The diagrams do not establish current distribution order, thresholds or deterministic effects.",
       "revisit_trigger": "If citing the original post or adopting any specific platform claim."
+    },
+    {
+      "id": "S27",
+      "title": "Instagram creative and publishing checklist by @liz.on.the.web",
+      "url": null,
+      "publication_date": null,
+      "checked_date": "2026-11-13",
+      "source_type": "practitioner_reference",
+      "access_status": "eight_user_supplied_screenshots_reviewed",
+      "supports": "Editorial prompts for clearer openings, topic language, saves and sharing, optional replays, post follow-through, audience feedback and Trial Reel experiments.",
+      "limitations": "The screenshots show November 4 without a year. The cover and original permalink were unavailable. The screenshots do not verify a new algorithm change, fixed time cutoffs or signal weights.",
+      "revisit_trigger": "Before relying on a claim about ranking or citing the original post."
+    },
+    {
+      "id": "S28",
+      "title": "Breaking Down How Instagram Search Works",
+      "url": "https://about.instagram.com/blog/announcements/break-down-how-instagram-search-works",
+      "archived_url": "https://archive.ph/QjutM",
+      "publication_date": "2021-08-25",
+      "checked_date": "2026-11-13",
+      "source_type": "platform_primary",
+      "access_status": "read_indexed_archive_excerpt_original_429",
+      "supports": "Historical Instagram guidance identifies query relevance and caption keywords as relevant to Search.",
+      "limitations": "Dated explanation, not evidence of current Hebrew coverage, ranking weights or an independent benefit from speech or on-screen keywords.",
+      "revisit_trigger": "Before claiming a current Search change or language-specific capability."
     }
   ],
   "claims": [
@@ -591,6 +616,54 @@
       "status": "supported_scoped_historical",
       "application": "Plan a timely opening, useful continuation, and optional response. Use available frame/action metrics with documented denominators.",
       "prohibited_inference": "A guaranteed ranking boost from one sticker tap or a reach penalty for one skip."
+    },
+    {
+      "id": "C22",
+      "claim": "Use natural caption terms for Search and clear topic cues for viewers.",
+      "evidence_type": "practitioner_recommendation",
+      "source_ids": [
+        "S27",
+        "S28"
+      ],
+      "status": "scoped_editorial_application",
+      "application": "Test phrasing drawn from actual audience questions.",
+      "prohibited_inference": "A new ranking change, fixed speech/text weight, or mandatory spoken keyword placement."
+    },
+    {
+      "id": "C23",
+      "claim": "Treat early hooks and purposeful replays as creative choices.",
+      "evidence_type": "practitioner_recommendation",
+      "source_ids": [
+        "S16",
+        "S27"
+      ],
+      "status": "scoped_editorial_application",
+      "application": "Test first-frame orientation or an ending with a worthwhile detail. Keep the core proof readable in one pass.",
+      "prohibited_inference": "A universal one- or two-second threshold, required loops, or a mandatory duration."
+    },
+    {
+      "id": "C24",
+      "claim": "Use post comments and recurring feedback for audience service and future briefs.",
+      "evidence_type": "practitioner_recommendation",
+      "source_ids": [
+        "S27"
+      ],
+      "status": "scoped_editorial_application",
+      "application": "Answer or pin helpful clarifications and turn anonymized recurring themes into a few candidate briefs.",
+      "prohibited_inference": "An algorithmic 30-minute deadline or ranking boost from replies or pins."
+    },
+    {
+      "id": "C25",
+      "claim": "Trial Reels can explore creative with a non-follower audience first.",
+      "evidence_type": "platform_fact",
+      "source_ids": [
+        "S24",
+        "S25",
+        "S27"
+      ],
+      "status": "supported_scoped_historical",
+      "application": "Check account availability and auto-share settings. Compare trials with similarly distributed trials.",
+      "prohibited_inference": "Randomized A/B assignment or guaranteed wider reach."
     }
   ],
   "unresolved_access": [
