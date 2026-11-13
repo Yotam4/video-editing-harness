@@ -1,6 +1,6 @@
 # Instagram posting funnels
 
-Reviewed 2026-11-11. Use this playbook when choosing how an organic Reel, carousel, or Story should earn attention and deliver value. Start with the viewer's situation, the promise, and the outcome. Add an action when it is useful to that viewer.
+Reviewed 2026-11-13. Use this playbook when choosing how an organic Reel, carousel, or Story should earn attention and deliver value. Start with the viewer's situation, the promise, and the outcome. Add an action when it is useful to that viewer.
 
 [Reels](#reels) · [Carousels](#carousels) · [Stories](#stories) · [Feature example](#one-feature-across-three-formats)
 
@@ -52,6 +52,24 @@ Use slide 2 as a second creative entry even when no resurfacing data is availabl
 Instagram's 2023 explanation describes viewing history, past engagement, and closeness as examples of Stories signals. It describes predictions about opening, replying, and moving on. The public explanation leaves exact signal weights and any guaranteed effect of a sticker tap or skip unspecified. [Instagram's published explanation, republished on WebWire](https://www.webwire.com/ViewPressRel.asp?aId=305828)
 
 Where timing and audience are comparable, last-frame reach ÷ first-frame reach can describe the sequence's exposure pattern. It cannot establish individual completion without linked viewer data.
+
+## Reel production, publishing and audience feedback
+
+Added 2026-11-13 from eight supplied screenshots of a carousel by @liz.on.the.web. The screenshots show November 4 without a year. The cover, the full caption and the original permalink were unavailable. The checklist is a source of creative ideas. See [S27–S28 and C22–C25](../research/social-evidence-ledger.json) for claim checks.
+
+| Moment | Apply it to Ela Maayan | What to compare |
+| --- | --- | --- |
+| Topic and search | Name the place, problem or feature in a natural caption. Make it clear on screen when that helps comprehension. Say it when it fits the delivery. For the transport feature, a natural line is “איך מוצאים מסלולים שאפשר להגיע אליהם בתחבורה ציבורית?” | Try the language people use in real questions. Record Search traffic separately if exposed. Keep Hebrew terms natural and treat discovery effects as a test. |
+| First frame | Show the result, start in a relevant scene, or ask a concrete question. Cut greetings or logo animations when they delay orientation. Watch the opening muted at phone size. | Compare result-first and question-first openings on comparable Reels. Use early viewing or skip rate where available and check that the payoff still lands. |
+| Payoff, saves and sends | Give someone a reason to return, such as a place name, a route-planning detail or a useful demo step. For a send, name a likely recipient and why it would help them. A satisfying scene can stand on its own. | Choose the intended response first. Use saves or shares per reach, and only use DM sends as a metric if reported separately. |
+| Replay | Let a useful detail or satisfying action reward a second look. Try an ending that connects naturally to the opening if the story benefits. Leave essential information on screen long enough to read on the first pass. | Test the ending with the rest of the edit held as similar as practical. Use a separately reported replay measure where available. Views divided by reach alone cannot identify deliberate rewatches. |
+| Post follow-through | Check comments early when practical. Answer genuine questions, pin a helpful clarification if useful, and ask a specific follow-up when it helps the exchange. | Track useful questions resolved and recurring themes. The source's 30-minute window is a staffing suggestion. No ranking threshold was verified. |
+| Feedback into briefs | Review a manageable sample of recent comments and authorized DMs or forum threads. Group recurring questions, confusion, objections and reported wins. Record dates, themes, approximate counts, and proof needed. Anonymize private feedback in the public harness. | Choose the strongest few topics and match format to the answer. Use a short Reel for a visible action, a carousel for material worth revisiting, or Stories for follow-up. Separate reported wins from verified outcomes. |
+| Trial Reel | When the account offers Trial Reels, use one to explore a new topic, opening, or format with non-followers first. Pick one main variable and check the auto-share setting before publishing. | Record the trial mode, age, audience and measures. Compare like with like and decide whether the result merits a wider share. Trial distribution does not randomize creative variants. |
+
+Instagram's dated Search guidance supports natural caption terms. The screenshots did not establish a new ranking change, independent ranking weights for spoken words or on-screen text, a first-sentence keyword requirement, or a one- or two-second cutoff. Use the first moments as an editorial check. [Instagram Search guidance, archived copy](https://archive.ph/QjutM) · [Meta Trial Reels announcement](https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/)
+
+**Brief to test for public transport.** Start with a genuine recurring question about finding trips by bus. Compare an opening that shows the actual filter and result with one that states the question first. Keep the same proof and payoff in both. Use the feedback to choose one follow-up topic, and keep usernames and private message details out of the public record.
 
 ## One feature across three formats
 
