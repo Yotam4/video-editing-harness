@@ -15,6 +15,7 @@
 - [Our own content evidence](analysis/ela-maayan-content-evidence-2026-11-10.md)
 - [Our next experiments](analysis/ela-maayan-experiments.md)
 - [Product-video playbook](production/product-video-playbook.md)
+- [Reel editing, edit records and export review](production/reel-editing.md)
 - [Video harness source review](research/video-harness-review.md)
 - [Brainstorming methods and provenance](research/brainstorming-methods.md)
 - [Modular routing decision](decisions/0002-modular-types-and-outcome-first-routing.md)

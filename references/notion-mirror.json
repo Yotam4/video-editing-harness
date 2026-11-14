@@ -7,7 +7,9 @@
     {
       "source_path": "docs/README.md",
       "page_id": "414c4747-654f-81b1-9705-f419563e1c0e",
-      "source_sha256": "8a2cb88296f4eca339f038017a8c0e00d3eb73bf2f907442ffcc33cc4aefbf33"
+      "source_sha256": "f0f6c7f5c14a59c5f624c8d09eab22ce844bfeed66b0a3f570e800e094611cae",
+      "source_commit": "ca4e59774c3f3819d322ad870e064b24b0785c78",
+      "mirror_status": "draft_navigation_updated"
     },
     {
       "source_path": "docs/knowledge/engagement.md",
@@ -72,12 +74,16 @@
     {
       "source_path": "docs/learnings/README.md",
       "page_id": "414c4747-654f-8166-a826-e7f56e807ca3",
-      "source_sha256": "6302e1cd6cf538862f6e2e37d37948718c15bfc300ca8c62bd4579a0d3384af3"
+      "source_sha256": "d5d3418e43094b8fe022bae528bb074ba9b635b30637cc6c996e4bac09658ae2",
+      "source_commit": "ca4e59774c3f3819d322ad870e064b24b0785c78",
+      "mirror_status": "draft_navigation_updated"
     },
     {
       "source_path": "docs/production/product-video-playbook.md",
       "page_id": "414c4747-654f-812c-80bd-d2f0ec47ce26",
-      "source_sha256": "5298cbe3ab9c0e859906d78988364d89db7eaf468cc81abe24d0bfe8a7060f0c"
+      "source_sha256": "5d66bc32baf047246f12ea04968b0f3cef5cffd13abb71a750471fe2ffcfe77c",
+      "source_commit": "ca4e59774c3f3819d322ad870e064b24b0785c78",
+      "mirror_status": "draft_targeted_refresh"
     },
     {
       "source_path": "docs/research/brainstorming-methods.md",
@@ -92,7 +98,12 @@
     {
       "source_path": "docs/research/video-harness-review.md",
       "page_id": "414c4747-654f-8176-9bd2-fc5b9eb9670c",
-      "source_sha256": "2ef7ad244a3a314858d0c8b62f0657bb80d25581281df61554610719e6fb142f"
+      "source_sha256": "2ef7ad244a3a314858d0c8b62f0657bb80d25581281df61554610719e6fb142f",
+      "latest_source_commit": "ca4e59774c3f3819d322ad870e064b24b0785c78",
+      "latest_source_sha256": "913e864058fa2c14896b5638ed8675c64119959f8c16870d3af54f75d6bad8fa",
+      "mirror_status": "corrected_current_draft_link_with_historical_body_retained",
+      "refresh_limit": "Automatic approval review rejected wholesale replacement; a dated current-source pointer was safely prepended.",
+      "source_identity": "talthetraveler/VIDEO-EDITING confirmed by owner screenshot"
     },
     {
       "source_path": "docs/strategy/social-brief-and-brainstorm.md",
@@ -138,6 +149,34 @@
       "source_path": "docs/strategy/instagram-posting-funnels.md",
       "page_id": "415c4747-654f-81fc-9f15-ce0023b04360",
       "source_sha256": "665cb942ada49db22b4dead9aa0c19fccc520c85f3e6d78adae566511fa86fa4"
+    },
+    {
+      "source_path": "docs/production/reel-editing.md",
+      "page_id": "418c4747-654f-8162-98d1-e5109a70517c",
+      "source_sha256": "35cde4631c31f8edb2f28c6b85e97c4bcf61c19073a2d394d0364388ac2c03a6",
+      "source_commit": "18dc0db4dee027730d42cb43ee92b7fa23a6a8e8",
+      "latest_source_commit": "ca4e59774c3f3819d322ad870e064b24b0785c78",
+      "latest_source_sha256": "ef42d322f0d106cab623412d0d98a71c9721f3ba0fbbc0ae393f59491d2c4447",
+      "mirror_status": "corrected_current_draft_link_with_historical_body_retained",
+      "refresh_limit": "Automatic approval review rejected wholesale replacement; a dated current-source pointer was safely prepended.",
+      "source_identity": "talthetraveler/VIDEO-EDITING confirmed by owner screenshot"
+    },
+    {
+      "source_path": "docs/validation/reel-review-2026-11-14.md",
+      "page_id": "418c4747-654f-8156-b6ed-d076f4f6ac89",
+      "source_sha256": "3750864ebc56c58a8f5415a65d95936f3b562287afcefd3aa2908a26e839472d",
+      "source_commit": "de859e27637c76b88c8f73ba5ee727402151b2d3",
+      "mirror_status": "corrected_current_draft_link_with_historical_body_retained",
+      "latest_source_commit": "ca4e59774c3f3819d322ad870e064b24b0785c78",
+      "latest_source_sha256": "6ab0ad27df03654fcfa99e920f249c5bae5eaa02faf11d27104efee64acfac16",
+      "source_identity": "talthetraveler/VIDEO-EDITING confirmed by owner screenshot"
+    },
+    {
+      "source_path": "docs/learnings/verify-reference-identity.md",
+      "page_id": "418c4747-654f-81b2-aa07-e3cbd2766826",
+      "source_commit": "ca4e59774c3f3819d322ad870e064b24b0785c78",
+      "source_sha256": "217351e56ab7e3a954a8963ca97f98b9836437e2e1b77d7ea4e80664b5f65ae4",
+      "mirror_status": "draft_full_mirror"
     }
   ]
 }

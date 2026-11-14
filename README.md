@@ -25,6 +25,8 @@ Edit and commit knowledge in Git first. Refresh the existing Notion mirror under
 - `workflows/`: production and mirror maintenance.
 - `.work/`: ignored downloads, render scratch and temporary raw metric exports.
 
+For Reel production, use the [editing and review workflow](docs/production/reel-editing.md), [edit record](templates/reel-edit.md) and [JSON shot list](templates/reel-edit.json). `python3 scripts/render_reel_edit.py <plan> .work/<new-version>` assembles footage, preserves natural speed, places supplied-timing Hebrew captions and emits build/review data. `python3 scripts/review_video.py <video> .work/<review-version> --expect-reel` reviews an existing export. FFmpeg/ffprobe and Python 3.11+ are required. The approved one-shot renderer remains available; transcription/forced alignment and audio mixing still need a selected production tool.
+
 Media and raw datasets stay outside Git. Imported instructions mentioning bundled preview images or a CSV must resolve their external source instead. Root instructions define storage and optional CTAs.
 
-The focus is carousels and brand, with our Reel workflow included. Tal's material has not been imported. Original procedure/script hashes remain in [the import manifest](references/import-manifest.json).
+The primary footage-editing reference is the confirmed [talthetraveler/VIDEO-EDITING](https://github.com/talthetraveler/VIDEO-EDITING); [the two-repo comparison](docs/research/video-harness-review.md) and [source manifest](references/tal-video-editing-review.json) record the methods adapted in first-party code. The optional `node scripts/review-room/server.mjs <cuts-folder>` is separately adapted from Tal Siach's Take One, with [MIT attribution](THIRD_PARTY.md). Carousels and brand retain their established workflows. Original procedure/script hashes remain in [the import manifest](references/import-manifest.json).

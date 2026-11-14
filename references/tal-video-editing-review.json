@@ -1,0 +1,100 @@
+{
+  "source_repository": "https://github.com/talthetraveler/VIDEO-EDITING",
+  "source_revision": "0f8f1bea35a32d16659a58b8c203bc70ddf1d24b",
+  "identity_evidence": "Owner-provided repository screenshot, 2026-11-14",
+  "checked_on": "2026-11-14",
+  "root_license_file": null,
+  "package_license": "UNLICENSED",
+  "adaptation_type": "method_synthesis_with_independent_first_party_implementation",
+  "copied_source_files": [],
+  "review_scope": "Master/router sections, selected lessons including 171-184, and the listed workflow/implementation files; not an exhaustive repository audit",
+  "inspected_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "38352f297facf6e37a3aec65f5bda02b02e27ccc7b37350ca343808ba20220d6"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "858287f08d22a69b2f7ae7144e1c542bcc6b8ae84815a25b3d290e248198d698"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f269f6a081606d2245cbc181ca2244233c78bc83f90809e456ec13e50ae04c37"
+    },
+    {
+      "path": "system/package.json",
+      "sha256": "b65921c948b77b9dfd8d33b4dff10cd5b8b76a2a56ff6193c40ca463c168cb4a"
+    },
+    {
+      "path": "skills/tal-video-editor/SKILL.md",
+      "sha256": "0beb975739da96d64c3e7273d864449c18f9c02127a8bca2c188e7b8e719ac25"
+    },
+    {
+      "path": "skills/tal-video-editor/MASTER-PROMPT.md",
+      "sha256": "f36c4f8cd763c91411e6d3732847136decaf8c01b9eedb68c1b3058e21610a11"
+    },
+    {
+      "path": "skills/tal-video-editor/LESSONS.md",
+      "sha256": "6452464089b96fd0dedcaead6b97fed4d36e6d3d529af9baea4c69d28c5b9ed7"
+    },
+    {
+      "path": "skills/tal-video-editor/formats/human-story.md",
+      "sha256": "e4728eb6738c2ff6f1d08b2a48b3c0d8078290752192a93a5ea1f863df5699c3"
+    },
+    {
+      "path": "skills/toolbox/ai-editor/SKILL.md",
+      "sha256": "071f1ec20506d7b0307117f67c10e48ac352c76b221b4a6ae234d1227ceeb5ee"
+    },
+    {
+      "path": "skills/toolbox/caption-qc/SKILL.md",
+      "sha256": "8e2a718cf7b0d7c25cd54eda58366abe15787450b51feb62d929f66691e5de6f"
+    },
+    {
+      "path": "skills/toolbox/multilingual-dialogue-qc/SKILL.md",
+      "sha256": "e8ca3e4d4b014ba20ac85d1acd51b3e26f1ff92ec405fe390acde0f97b9b6495"
+    },
+    {
+      "path": "skills/toolbox/07-cinematic-reference/SKILL.md",
+      "sha256": "5b1c0d5c9637327b14ae3fc71e7aa52530ec0e5d849347ef7927988df2881312"
+    },
+    {
+      "path": "system/scripts/autotrim.mjs",
+      "sha256": "e7d6b49b6c41d33241bbf148f6f664fa0dd4b499535910ef3c0c4c1b07118de4"
+    },
+    {
+      "path": "system/scripts/lib/project.mjs",
+      "sha256": "c3b13bfa4d9508a59c98d8c75eb5a6c3bc861d4c60c6b97aafcc24398f3a3174"
+    },
+    {
+      "path": "system/scripts/lib/caption-timing.mjs",
+      "sha256": "aa7963748b978770f32679d138c2439a949d34bd1107c60f9334671fb9e38ab3"
+    },
+    {
+      "path": "system/scripts/test-caption-timing.mjs",
+      "sha256": "7704a85ae7f58c35ee05a9a5672054765139012a1bc66cc548acd41b1ed29d8c"
+    },
+    {
+      "path": "system/scripts/build-edit.mjs",
+      "sha256": "1399af1e4d35d9085e99534a80e558de6ed887f671c73b7b40899efab158eb7f"
+    },
+    {
+      "path": "system/scripts/selfreview.mjs",
+      "sha256": "a0729f450b3327613ad57c7247331c13d625785c4e8f51414ca9a41b9b432cf9"
+    },
+    {
+      "path": "system/scripts/check-beats.mjs",
+      "sha256": "8756433cd6270367185250f9e353a68a466128714906bec80447fbceee61e284"
+    }
+  ],
+  "local_implementation": [
+    "scripts/render_reel_edit.py",
+    "templates/reel-edit.json",
+    "tests/test_reel_edit.py"
+  ],
+  "comparison": "docs/research/video-harness-review.md",
+  "execution_limits": [
+    "Upstream setup and account integrations were not run",
+    "Reference footage, transcripts, brand assets and account configuration were not imported",
+    "Upstream caption/noise settings are dated source-owner choices, not our defaults"
+  ]
+}

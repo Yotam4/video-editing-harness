@@ -1,6 +1,6 @@
 # Product-video playbook
 
-Version: 2. Checked: 2026-11-13. Status: first-party planning and production guidance.
+Version: 3. Checked: 2026-11-14. Status: first-party planning and production guidance.
 
 Use this when showing Ela Maayan's actual product through a screen demo, feature story, launch film, verified proof/milestone film or motion explainer. Keep the existing natural one-shot Reel workflow for an actual field clip; a video being vertical does not make it a product demo.
 
@@ -149,4 +149,4 @@ Primary sources checked 2026-11-10:
 - [SaaS product demo iteration playbook at pinned revision](https://github.com/noamdorr/saas-product-demo-video/blob/c93c00ff44a65eea25ac1bb773a4565c68893ff9/skills/saas-product-demo-video/references/iteration-playbook.md)
 - [Official Remotion skills](https://www.remotion.dev/docs/ai/skills), [parameterized rendering](https://www.remotion.dev/docs/parametrized-rendering), [animation](https://www.remotion.dev/docs/animating-properties), [Sequence](https://www.remotion.dev/docs/sequence), [transitions](https://www.remotion.dev/docs/transitions/) and [captions](https://www.remotion.dev/docs/captions/).
 
-The workflow above is first-party synthesis adapted to Ela Maayan's Git/Notion/Drive model, authentic product proof, Hebrew and optional CTA policy. The [review](../research/video-harness-review.md) records the unidentified Tal source and separates the licensed references actually inspected.
+The workflow above is first-party synthesis adapted to Ela Maayan's Git/Notion/Drive model, authentic product proof, Hebrew and optional CTA policy. The [review](../research/video-harness-review.md) records the confirmed Tal the Traveler comparison, the separately credited Take One review room and earlier references. Use the [shared Reel editing and review workflow](reel-editing.md) for shot lists, supplied-timing captions, export frames and versioned feedback.

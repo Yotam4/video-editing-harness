@@ -1,0 +1,26 @@
+# Reel review tooling validation
+
+Date: 2026-11-14. Baseline: `0d9de3d43c80f9ed36af25a10134e4a586a3433e`.
+
+Scope: first-party footage assembly, supplied-timing Hebrew captions and export review, informed by the confirmed `talthetraveler/VIDEO-EDITING` at `0f8f1bea35a32d16659a58b8c203bc70ddf1d24b`. The optional review room retains its separate MIT Take One attribution. Reference checkouts were left unmodified. Carousel procedures, styling and registry recipes were preserved.
+
+## Checks run
+
+- `python3 -m unittest discover -s tests -v`: seven tests passed, including real FFmpeg rendering and a headless Chromium flow. A real FFmpeg fixture contains a red shot followed by a blue shot and an AAC tone. Extracted frames immediately before and after the known cut are checked against their actual colors. The review record retains pending human checks, rejects out-of-range cuts and existing destinations, escapes a filename containing HTML characters, and distinguishes QuickTime MOV from the MP4 preset. Timestamp selection covers variable intervals and non-finite/out-of-range input.
+- Shot-list renderer: joins selected spans from rotated 24fps footage with audio and a 60fps silent source into the exact 30-frame/one-second 1080×1920 output. Checks original source hashes remain unchanged, source-span clocks rebase correctly, limited-range output is tagged `tv`, and build-emitted Hebrew text/timing is preserved. Actual rendered pixels verify that the caption appears on frame 3, clears on exclusive frame 12, and the next shot starts on frame 15. A failed initial out-point test exposed fractional concatenation timestamps; explicitly normalizing the joined time base fixed it. Preview checks explicit padding, 432×768 geometry and muted output. Invalid alignment IDs, crossing cue windows, overlapping cues, wrong local clocks and unsupported speed fields are rejected.
+- Review-room API: verified source-hash binding, stale-source rejection, exact 60fps and variable-interval frame indexing, resolution only against a different cut/hash, media byte-range delivery and same-origin handling.
+- Review-room browser: saved a pinned Hebrew note on an actual portrait video, verified that its JPEG snapshot retained the 180×320 aspect, finished a local review batch, switched to a 60fps cut and stepped exactly 1/60 second. Checked the 390px viewport for horizontal overflow and captured browser errors (none). Tests used temporary media and notes.
+- `python3 scripts/check_content_registry.py --smoke`: JSON Schema passed and all eight existing routing scenarios passed across 17 recipes.
+- Existing one-shot renderer: rendered temporary synthetic footage with a 90-degree display matrix and mixed Hebrew text, punctuation and a number. Output verified as 1080×1920 with zero rotation.
+- New review CLI with `--expect-reel`: full video/audio decoding passed, frames extracted, all seven export checks passed, source hash recorded, and HTML/JSON read back. Human playback and listening remained pending in the generated report.
+- Inspected one extracted frame at full resolution: the synthetic image was upright; Hebrew text, mixed number and punctuation appeared in the expected order. This is a sampled fixture check, not approval of real footage or a complete film.
+- Ran the shot-list CLI on a persistent synthetic fixture and inspected its full-resolution caption frame. Hebrew, the mixed number and punctuation rendered as expected. Caption reading-time warnings remained visible and the build remained `not_approved`. Pixel tests also cover boundaries on frames 17 and 26, where ASS centisecond rounding would otherwise delay or extend a cue. Explicit MP4 color metadata (`write_colr`) makes the limited-range tag observable without inventing a color matrix for untagged input.
+- `git diff --check`: passed.
+
+Environment: Python 3.11+; FFmpeg/ffprobe 7.1.5 with libass, HarfBuzz and FriBidi available; Node and Playwright/Chromium for the review-room checks. The first sandboxed server attempt could not bind loopback; the authorized test rerun outside that sandbox passed. Fixtures and generated review media stayed in temporary directories or ignored `.work/`.
+
+## Limits and next production capabilities
+
+No real campaign footage, complete editorial playback, audio listening, destination preview or live publishing was reviewed. The separate static browser board is a local file with a relative link to the source video; its generated markup and frame files were inspected. The adapted review room was exercised in Chromium. Metadata checks cover the existing Reel export preset; intentionally different deliverables can omit `--expect-reel`.
+
+The [comparison](../research/video-harness-review.md) records the confirmed source and which methods were adapted or deferred. Tal the Traveler's Windows pipeline, accounts, models and audio processors were not installed or run. Its methods informed first-party code, with no source files vendored. Take One supplies only the separately attributed review room. The current renderer assembles selected shots and supplied-timing captions; it does not generate transcription/forced alignment, choose moments semantically, clean speech or mix music. No real speech transcription or translation was verified by the synthetic fixtures.

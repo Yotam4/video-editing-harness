@@ -1,11 +1,13 @@
 ---
 name: el-hamaayan-reel
-description: Use when creating, editing, reviewing, or exporting an El Hamaayan / אל המעיין Instagram Reel (ריל), especially a natural one-shot Reel with Hebrew overlay text — covers Drive footage selection, native 9:16 framing, locked copy, true RTL punctuation, clean typography, rendering, and visual QA.
+description: Use when creating, editing, reviewing, or exporting an El Hamaayan / אל המעיין Instagram Reel (ריל). Covers footage selects, edit records, cut and caption review, audio checks, and the approved natural one-shot renderer with Hebrew overlay text and native 9:16 framing.
 ---
 
 # El Hamaayan Reel
 
 Create El Hamaayan Reels that feel like real travel footage with one strong idea, not polished ads. Preserve approved footage and copy; revise only what the owner asked to change.
+
+Read [Reel editing and review](../../docs/production/reel-editing.md) for the shared editing procedure and current tool capabilities. Choose one-shot, montage, spoken story or product/demo from the brief. Preserve the existing renderer for an approved one-shot revision. For footage assembly with hard cuts and timed captions, use `scripts/render_reel_edit.py` and the JSON plan template. Use a selected production tool for unsupported motion, alignment or mixing.
 
 ## Required routing
 
@@ -47,12 +49,22 @@ This is a default, not a universal Reel rule. Follow an explicit montage, logo, 
 4. Render and verify.
    - Default export: MP4, H.264, 1080×1920, 30fps, square pixels, `yuv420p`.
    - Use `scripts/render_one_shot_reel.py` for the approved one-shot style.
-   - Inspect a three-frame contact sheet from the beginning, middle, and end.
+   - Run `python3 scripts/review_video.py <export> .work/<review-version> --expect-reel` from the repository root for a review board, full-resolution opening/middle/ending frames, measured export properties and decoding checks. Use `--at`, `--cut-frame` and `--cover-frame` for actual caption, action, cut and cover checks.
    - Verify that the scenery and people remain visible, the text never leaves frame, punctuation is RTL-correct, and no unintended crop or rotation remains.
+   - Play the entire sequence muted at phone size, then listen and check audio/caption timing. Record playback or listening as pending when unavailable; successful decoding and sampled frames cannot approve either.
+   - For feedback across cuts, run `node scripts/review-room/server.mjs <cuts-folder>`. Read frame-pinned notes and snapshots from `review-notes/`, preserve their exact wording in the content record, and make a new export. Resolve a note only after inspecting the fix in the named replacement cut; the room records its hash.
 5. Deliver.
    - Use a new version number for each approved revision.
    - Upload to the established Reel folder only when requested or already authorized by the ongoing task.
    - Report the duration, dimensions, and what changed in one short handoff.
+
+## Footage assembly and timed captions
+
+Read the [confirmed Tal the Traveler comparison](../../docs/research/video-harness-review.md), then inspect the relevant source collection before choosing moments. Keep complete thoughts, reactions and the payoff; automatic scores or silence detection do not choose the story. A reference's successful structure does not prescribe our font, language, cut rate or music.
+
+Copy `templates/reel-edit.json` into ignored production space. Record stable source references, `clock_start` for fetched excerpts, selected source in-points and output frame counts. Use exact approved display text; speech cues share their source's alignment ID, while scenic overlays use timeline frames. Keep original wording, translation status and uncertainty separate. Do not queue a speech cue behind a reading hold or guess word timing from sentence length.
+
+Run the renderer with `--check`, then use `--preview` when a representative draft resolves uncertainty. Render into a new version directory. Inspect `cues.json`, actual cut/caption frames in `review/`, physical orientation, full phone-size playback and audio when available. A compiled cue list proves mapping and text inputs, not the accuracy of transcription, translation or hearing. Record feedback in the existing content record and apply only the requested revision. Existing authorization governs whether another review checkpoint is needed.
 
 ## Approved one-shot typography
 

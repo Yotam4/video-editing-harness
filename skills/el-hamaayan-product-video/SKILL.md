@@ -5,7 +5,7 @@ description: Plan, create, revise and review Ela Maayan app demos, feature video
 
 # El Hamaayan Product Video
 
-Read the canonical harness at https://github.com/Yotam4/video-editing-harness through a checkout or connected GitHub tools. Load `docs/production/product-video-playbook.md`, current brand/voice knowledge and the selected registry recipe. Read `docs/research/video-harness-review.md` before using third-party methods. Do not claim Tal's unidentified source was imported.
+Read the canonical harness at https://github.com/Yotam4/video-editing-harness through a checkout or connected GitHub tools. Load `docs/production/product-video-playbook.md`, current brand/voice knowledge and the selected registry recipe. Read `docs/research/video-harness-review.md` before using third-party methods; it records the confirmed `talthetraveler/VIDEO-EDITING` comparison and separately credits the supplemental Take One review room.
 
 ## Establish the job and source
 
@@ -30,6 +30,8 @@ Select the smallest adequate production tool. Use the existing `el-hamaayan-reel
 When production is authorized, make a representative frame or rough sequence when it resolves uncertainty, then render the requested artifact. Review actual output: tap targets, dense UI, longest Hebrew line, mixed numbers, cuts, end state and independent cover. Inspect the whole video at phone size and check audio/captions through playback when available.
 
 Verify technical metadata and accepted source/output versions. Distinguish still-frame checks, playback, audio review and metadata validation; never claim smooth motion or intelligible audio from a contact sheet alone. Preserve locked decisions and classify feedback as copy/timing, reskin, scene replacement or story rebuild.
+
+Use the shared [Reel editing and review procedure](../../docs/production/reel-editing.md) and `scripts/review_video.py` in the canonical checkout to extract action, caption and cut frames and build a local review board. Supply actual cut frames and keep playback/listening approval separate from the automated report. Omit `--expect-reel` when the delivery specification intentionally differs from the standard Reel export. For versioned feedback, use `scripts/review-room/server.mjs`, read the note's actual snapshot and source hash, and record the inspected replacement cut when resolving it.
 
 ## Save and learn
 
