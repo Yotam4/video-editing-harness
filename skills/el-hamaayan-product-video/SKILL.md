@@ -31,6 +31,8 @@ When production is authorized, make a representative frame or rough sequence whe
 
 Verify technical metadata and accepted source/output versions. Distinguish still-frame checks, playback, audio review and metadata validation; never claim smooth motion or intelligible audio from a contact sheet alone. Preserve locked decisions and classify feedback as copy/timing, reskin, scene replacement or story rebuild.
 
+Use the shared [Reel editing and review procedure](../../docs/production/reel-editing.md) and `scripts/review_video.py` in the canonical checkout to extract action, caption and cut frames and build a local review board. Supply actual cut frames and keep playback/listening approval separate from the automated report. Omit `--expect-reel` when the delivery specification intentionally differs from the standard Reel export.
+
 ## Save and learn
 
 Save scene contracts, copy, proof, decisions, feedback and handoff in Git at `docs/content/<format>/<recipe-or-candidate>/<slug>/`. Save media, recordings and renders in Drive with stable source IDs/versions. Commit knowledge, then refresh its mirror only under the Ela Maayan Hub.

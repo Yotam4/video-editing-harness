@@ -1,11 +1,13 @@
 ---
 name: el-hamaayan-reel
-description: Use when creating, editing, reviewing, or exporting an El Hamaayan / אל המעיין Instagram Reel (ריל), especially a natural one-shot Reel with Hebrew overlay text — covers Drive footage selection, native 9:16 framing, locked copy, true RTL punctuation, clean typography, rendering, and visual QA.
+description: Use when creating, editing, reviewing, or exporting an El Hamaayan / אל המעיין Instagram Reel (ריל). Covers footage selects, edit records, cut and caption review, audio checks, and the approved natural one-shot renderer with Hebrew overlay text and native 9:16 framing.
 ---
 
 # El Hamaayan Reel
 
 Create El Hamaayan Reels that feel like real travel footage with one strong idea, not polished ads. Preserve approved footage and copy; revise only what the owner asked to change.
+
+Read [Reel editing and review](../../docs/production/reel-editing.md) for the shared editing procedure and current tool capabilities. Choose one-shot, montage, spoken story or product/demo from the brief. The existing renderer implements the one-shot style; use an available editor or a selected production project for other treatments. Do not silently flatten them into a single static overlay.
 
 ## Required routing
 
@@ -47,8 +49,9 @@ This is a default, not a universal Reel rule. Follow an explicit montage, logo, 
 4. Render and verify.
    - Default export: MP4, H.264, 1080×1920, 30fps, square pixels, `yuv420p`.
    - Use `scripts/render_one_shot_reel.py` for the approved one-shot style.
-   - Inspect a three-frame contact sheet from the beginning, middle, and end.
+   - Run `python3 scripts/review_video.py <export> .work/<review-version> --expect-reel` from the repository root for a review board, full-resolution opening/middle/ending frames, measured export properties and decoding checks. Use `--at`, `--cut-frame` and `--cover-frame` for actual caption, action, cut and cover checks.
    - Verify that the scenery and people remain visible, the text never leaves frame, punctuation is RTL-correct, and no unintended crop or rotation remains.
+   - Play the entire sequence muted at phone size, then listen and check audio/caption timing. Record playback or listening as pending when unavailable; successful decoding and sampled frames cannot approve either.
 5. Deliver.
    - Use a new version number for each approved revision.
    - Upload to the established Reel folder only when requested or already authorized by the ongoing task.

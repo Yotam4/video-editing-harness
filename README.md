@@ -25,6 +25,8 @@ Edit and commit knowledge in Git first. Refresh the existing Notion mirror under
 - `workflows/`: production and mirror maintenance.
 - `.work/`: ignored downloads, render scratch and temporary raw metric exports.
 
+For Reel production, use the [editing and review workflow](docs/production/reel-editing.md) and [edit record](templates/reel-edit.md). `python3 scripts/review_video.py <video> .work/<review-version> --expect-reel` builds a local playback board and extracts exact review frames. FFmpeg/ffprobe and Python 3.11+ are required. The existing one-shot renderer is supported; montage assembly, transcription and audio mixing still require a selected production tool.
+
 Media and raw datasets stay outside Git. Imported instructions mentioning bundled preview images or a CSV must resolve their external source instead. Root instructions define storage and optional CTAs.
 
-The focus is carousels and brand, with our Reel workflow included. Tal's material has not been imported. Original procedure/script hashes remain in [the import manifest](references/import-manifest.json).
+Carousels and brand retain their established workflows. Reel editing is being extended from the existing one-shot renderer. Tal's material has not been imported; the exact source repository is still needed. Original procedure/script hashes remain in [the import manifest](references/import-manifest.json).
