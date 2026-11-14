@@ -136,5 +136,11 @@
   "content_entry_skill": "el-hamaayan-content-router",
   "content_registry": "registry/content-types.json",
   "modular_architecture": "docs/architecture/modular-content-system.md",
-  "instagram_source_ledger": "docs/research/social-evidence-ledger.json"
+  "instagram_source_ledger": "docs/research/social-evidence-ledger.json",
+  "video_harness_comparison": {
+    "source_repository": "https://github.com/talsiach/take-one",
+    "source_revision": "43fd27b8878241deb50a5884a154b173272b858f",
+    "review": "docs/research/video-harness-review.md",
+    "adaptation_manifest": "references/take-one-adaptation.json"
+  }
 }

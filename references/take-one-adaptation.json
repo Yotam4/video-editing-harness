@@ -1,0 +1,44 @@
+{
+  "source_repository": "https://github.com/talsiach/take-one",
+  "source_revision": "43fd27b8878241deb50a5884a154b173272b858f",
+  "package_version": "0.1.0",
+  "checked_on": "2026-11-14",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Tal Siach",
+  "license_path": "licenses/take-one-MIT.txt",
+  "source_license_sha256": "989264f54fafa644d29f7586deaca0543fb609966a7978dd676b5447c2bbf7a0",
+  "adaptations": [
+    {
+      "source_path": "scripts/review-room/server.mjs",
+      "source_sha256": "24e6a45cee648d300ffef7f9db74837f4caf61acf0b51f2d43447b7884a072fe",
+      "local_path": "scripts/review-room/server.mjs",
+      "changes": [
+        "Decoded presentation timestamps instead of a fixed frame rate",
+        "Source SHA-256 binding and replacement-cut resolution records",
+        "Atomic note writes, input validation and byte-range handling",
+        "Importable server for local API tests"
+      ]
+    },
+    {
+      "source_path": "scripts/review-room/index.html",
+      "source_sha256": "d5ba7be0dfe8653ebe0ebf1ae274aea93c2ac51c8391e0a4515e8a3cc4965bfe",
+      "local_path": "scripts/review-room/index.html",
+      "changes": [
+        "Ela Maayan text without upstream logos",
+        "Video and snapshot aspect preserved for portrait footage",
+        "Frame stepping from decoded presentation timestamps",
+        "Stale export notes and explicit replacement-cut resolution",
+        "Local review batches, visible errors and responsive layout"
+      ]
+    }
+  ],
+  "comparison": "docs/research/video-harness-review.md",
+  "excluded": [
+    "upstream branding and logo",
+    "gallery and preview media",
+    "music and SFX engine",
+    "canvas rendering runtime",
+    "macOS subject matting",
+    "fixed-wide-ratio frame extraction"
+  ]
+}

@@ -52,6 +52,7 @@ This is a default, not a universal Reel rule. Follow an explicit montage, logo, 
    - Run `python3 scripts/review_video.py <export> .work/<review-version> --expect-reel` from the repository root for a review board, full-resolution opening/middle/ending frames, measured export properties and decoding checks. Use `--at`, `--cut-frame` and `--cover-frame` for actual caption, action, cut and cover checks.
    - Verify that the scenery and people remain visible, the text never leaves frame, punctuation is RTL-correct, and no unintended crop or rotation remains.
    - Play the entire sequence muted at phone size, then listen and check audio/caption timing. Record playback or listening as pending when unavailable; successful decoding and sampled frames cannot approve either.
+   - For feedback across cuts, run `node scripts/review-room/server.mjs <cuts-folder>`. Read frame-pinned notes and snapshots from `review-notes/`, preserve their exact wording in the content record, and make a new export. Resolve a note only after inspecting the fix in the named replacement cut; the room records its hash.
 5. Deliver.
    - Use a new version number for each approved revision.
    - Upload to the established Reel folder only when requested or already authorized by the ongoing task.

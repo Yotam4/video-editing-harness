@@ -59,12 +59,28 @@ Complete these human passes and record who checked which version:
 
 The tool always starts human checks as `not_reviewed`. Summarize completed checks in the Git handoff; never promote an automated decode or a contact sheet to playback approval.
 
-## Current gaps and Tal comparison
+## Revise with notes on the actual frame
+
+For an editing session with multiple exported cuts, use the adapted local review room (Node 18+, FFmpeg/ffprobe and a browser):
+
+```sh
+node scripts/review-room/server.mjs .work/reel-cuts 4400
+```
+
+Open `http://127.0.0.1:4400`. The room lists MP4 files in that folder, newest first. Pick a cut, play or step through its decoded frame timestamps, then click the picture to pin a note. The player and saved snapshot preserve the video's displayed aspect. A 60fps export is not mislabeled as 30fps. Choose a second cut to compare their playback at matching elapsed times; different shot timings still need editorial judgment.
+
+Notes and snapshots stay in `<cuts-folder>/review-notes/`. “Finish review” records a local batch in `sent.log`; it sends no external message and does not wake an inactive agent. During revision, read `notes.json` and the matching `shots/<id>.jpg`, preserve the exact feedback in the Git content record, then change the affected shot/event. The room records the source export's SHA-256 so feedback stays tied to the version reviewed. If a filename is reused for a different export, old notes are labeled as belonging to the earlier export and are not jumped to as if they matched.
+
+Keep prior cuts. After checking the requested fix in a new export, select that export in “Compare with” before marking the original note done. The stored resolution names the replacement cut and its hash. Marking a note done records a human/editor decision; it does not automatically prove the fix. Reopen unresolved notes and report any disagreement. Save a new named export instead of silently replacing the accepted version.
+
+The room adapts [Take One's MIT code](../../THIRD_PARTY.md). It adds frame timing, portrait geometry, version binding and resolution records to that workflow. The static review board remains useful for a single-export technical review. Neither tool assembles a montage or checks music quality by listening.
+
+## Current gaps and the two-repo comparison
 
 Baseline inspected at [`0d9de3d43c80f9ed36af25a10134e4a586a3433e`](https://github.com/Yotam4/video-editing-harness/commit/0d9de3d43c80f9ed36af25a10134e4a586a3433e).
 
 Our planning guidance is substantially broader than our executable editing tools. The baseline has a one-shot overlay renderer and product-video planning; it has no general timeline assembler, transcript alignment, audio mixing pipeline or automated cut review. This change supplies cut review and an edit record. It does not claim the other capabilities are implemented.
 
-Tal's exact repository URL is still required for the requested comparison. The [source review](../research/video-harness-review.md) records the unresolved identity. Do not substitute another project or describe these first-party additions as an import from Tal.
+The [two-repo review](../research/video-harness-review.md) compares this baseline with Tal Siach's [Take One at `43fd27b`](https://github.com/talsiach/take-one/tree/43fd27b8878241deb50a5884a154b173272b858f). The review-room files are the selective code adaptation; the export-review CLI and edit template are first-party additions. Source hashes, license and changes are retained in [the manifest](../../references/take-one-adaptation.json).
 
-Once the URL is supplied, inspect the exact revision, entry point, license, dependencies and a representative editing project. Compare selective opportunities in this order: footage selects and edit decisions; timeline assembly and revision; Hebrew captions and timing; speech/music/ambient mixing; preview and final-render checks. Record adopt/adapt/defer decisions with source paths and versions. Retain notices for any copied licensed material, keep media external, and test the selected tools with temporary fixtures before calling them supported.
+Next opportunities are timeline assembly, Hebrew caption alignment and speech/music/ambient mixing. Select those tools for a concrete production brief. Take One's wide-frame clip extraction, intentional playback-rate changes and macOS subject matting are unsuitable defaults for our native footage. Do not import its entire rendering/music stack to close one editing gap.

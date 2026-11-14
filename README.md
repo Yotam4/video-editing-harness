@@ -29,4 +29,4 @@ For Reel production, use the [editing and review workflow](docs/production/reel-
 
 Media and raw datasets stay outside Git. Imported instructions mentioning bundled preview images or a CSV must resolve their external source instead. Root instructions define storage and optional CTAs.
 
-Carousels and brand retain their established workflows. Reel editing is being extended from the existing one-shot renderer. Tal's material has not been imported; the exact source repository is still needed. Original procedure/script hashes remain in [the import manifest](references/import-manifest.json).
+The video workflow selectively adapts [Tal Siach's Take One](https://github.com/talsiach/take-one): run `node scripts/review-room/server.mjs <cuts-folder>` for local frame-pinned notes and cut comparison. See [the two-repo comparison](docs/research/video-harness-review.md), [attribution and license](THIRD_PARTY.md), and [the adaptation manifest](references/take-one-adaptation.json). Carousels and brand retain their established workflows. Original procedure/script hashes remain in [the import manifest](references/import-manifest.json).
