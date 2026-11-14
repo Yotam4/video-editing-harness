@@ -8,4 +8,8 @@ Copyright (c) 2026 Tal Siach. MIT. The full permission notice is retained in [li
 
 The Take One name, logos, style gallery, preview media, examples, music engine and other third-party modules are not included in this adaptation. The review room uses Ela Maayan text and no borrowed logo. The rest of this upstream project has its own third-party notices, including Apache-2.0 components; importing those later requires reviewing and retaining their notices separately.
 
-The [comparison](docs/research/video-harness-review.md) credits workflow ideas studied in the same revision. They are adapted to our Hebrew copy locks, native footage, optional sound/CTAs and Git/Drive/Notion storage. Upstream scores, timing heuristics and experience reports are practitioner guidance, not measured promises about Ela Maayan performance.
+Take One is a supplemental source for this review room; it is not the Tal repository the owner identified. Its scores and timing heuristics are practitioner guidance, not measured promises about Ela Maayan performance.
+
+## Tal the Traveler: method reference
+
+The confirmed requested source is [talthetraveler/VIDEO-EDITING](https://github.com/talthetraveler/VIDEO-EDITING), pinned at `0f8f1bea35a32d16659a58b8c203bc70ddf1d24b`. Its root has no license file and `system/package.json` declares `UNLICENSED`. No code, skill text, personal assets, transcripts or account configuration from that repository is vendored here. The [comparison](docs/research/video-harness-review.md) and [source manifest](references/tal-video-editing-review.json) credit the methods studied; `scripts/render_reel_edit.py` is an independent first-party implementation.

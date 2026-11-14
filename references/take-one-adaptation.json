@@ -40,5 +40,6 @@
     "canvas rendering runtime",
     "macOS subject matting",
     "fixed-wide-ratio frame extraction"
-  ]
+  ],
+  "source_role": "Supplemental MIT review-room code; not the Tal repository identified by the owner"
 }

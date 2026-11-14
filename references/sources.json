@@ -138,6 +138,14 @@
   "modular_architecture": "docs/architecture/modular-content-system.md",
   "instagram_source_ledger": "docs/research/social-evidence-ledger.json",
   "video_harness_comparison": {
+    "source_repository": "https://github.com/talthetraveler/VIDEO-EDITING",
+    "source_revision": "0f8f1bea35a32d16659a58b8c203bc70ddf1d24b",
+    "identity_evidence": "Owner-provided repository screenshot, 2026-11-14",
+    "review": "docs/research/video-harness-review.md",
+    "review_manifest": "references/tal-video-editing-review.json",
+    "adaptation_type": "method_synthesis_with_independent_first_party_implementation"
+  },
+  "supplemental_video_review_source": {
     "source_repository": "https://github.com/talsiach/take-one",
     "source_revision": "43fd27b8878241deb50a5884a154b173272b858f",
     "review": "docs/research/video-harness-review.md",

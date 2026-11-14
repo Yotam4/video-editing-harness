@@ -5,7 +5,7 @@ description: Plan, create, revise and review Ela Maayan app demos, feature video
 
 # El Hamaayan Product Video
 
-Read the canonical harness at https://github.com/Yotam4/video-editing-harness through a checkout or connected GitHub tools. Load `docs/production/product-video-playbook.md`, current brand/voice knowledge and the selected registry recipe. Read `docs/research/video-harness-review.md` before using third-party methods; it records the pinned Take One comparison and the narrow review-room adaptation.
+Read the canonical harness at https://github.com/Yotam4/video-editing-harness through a checkout or connected GitHub tools. Load `docs/production/product-video-playbook.md`, current brand/voice knowledge and the selected registry recipe. Read `docs/research/video-harness-review.md` before using third-party methods; it records the confirmed `talthetraveler/VIDEO-EDITING` comparison and separately credits the supplemental Take One review room.
 
 ## Establish the job and source
 

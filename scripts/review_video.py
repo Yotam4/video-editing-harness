@@ -129,6 +129,7 @@ def build_review(source: Path, destination: Path, *, times: list[float],
         "video": {key: video.get(key) for key in [
             "codec_name", "width", "height", "pix_fmt", "sample_aspect_ratio",
             "avg_frame_rate", "r_frame_rate", "duration", "start_time", "side_data_list",
+            "color_range", "color_space", "color_transfer", "color_primaries",
         ]},
         "decoded_frame_count": len(timestamps),
         "last_frame_seconds": timestamps[-1],

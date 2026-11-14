@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {"id": "walk", "path": "raw/walk.mp4", "drive_id": "REPLACE_WITH_SOURCE_ID", "clock_start": 0},
+    {"id": "speaker", "path": "raw/speaker.mp4", "drive_id": "REPLACE_WITH_SOURCE_ID", "clock_start": 0, "alignment_id": "REPLACE_WITH_VERIFIED_ALIGNMENT_ID"}
+  ],
+  "shots": [
+    {"id": "opening", "source": "walk", "source_in": 0, "frames": 90, "fit": "native", "audio": "keep", "reason": "Replace with the real action this opening promises"},
+    {"id": "payoff", "source": "speaker", "source_in": 1, "frames": 90, "fit": "native", "audio": "keep", "reason": "Replace with the real payoff and keep the complete thought"}
+  ],
+  "captions": [],
+  "caption_style": {"font": "DejaVu Sans", "font_size": 58, "top": 650}
+}

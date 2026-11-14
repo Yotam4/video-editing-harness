@@ -7,7 +7,7 @@ description: Use when creating, editing, reviewing, or exporting an El Hamaayan 
 
 Create El Hamaayan Reels that feel like real travel footage with one strong idea, not polished ads. Preserve approved footage and copy; revise only what the owner asked to change.
 
-Read [Reel editing and review](../../docs/production/reel-editing.md) for the shared editing procedure and current tool capabilities. Choose one-shot, montage, spoken story or product/demo from the brief. The existing renderer implements the one-shot style; use an available editor or a selected production project for other treatments. Do not silently flatten them into a single static overlay.
+Read [Reel editing and review](../../docs/production/reel-editing.md) for the shared editing procedure and current tool capabilities. Choose one-shot, montage, spoken story or product/demo from the brief. Preserve the existing renderer for an approved one-shot revision. For footage assembly with hard cuts and timed captions, use `scripts/render_reel_edit.py` and the JSON plan template. Use a selected production tool for unsupported motion, alignment or mixing.
 
 ## Required routing
 
@@ -57,6 +57,14 @@ This is a default, not a universal Reel rule. Follow an explicit montage, logo, 
    - Use a new version number for each approved revision.
    - Upload to the established Reel folder only when requested or already authorized by the ongoing task.
    - Report the duration, dimensions, and what changed in one short handoff.
+
+## Footage assembly and timed captions
+
+Read the [confirmed Tal the Traveler comparison](../../docs/research/video-harness-review.md), then inspect the relevant source collection before choosing moments. Keep complete thoughts, reactions and the payoff; automatic scores or silence detection do not choose the story. A reference's successful structure does not prescribe our font, language, cut rate or music.
+
+Copy `templates/reel-edit.json` into ignored production space. Record stable source references, `clock_start` for fetched excerpts, selected source in-points and output frame counts. Use exact approved display text; speech cues share their source's alignment ID, while scenic overlays use timeline frames. Keep original wording, translation status and uncertainty separate. Do not queue a speech cue behind a reading hold or guess word timing from sentence length.
+
+Run the renderer with `--check`, then use `--preview` when a representative draft resolves uncertainty. Render into a new version directory. Inspect `cues.json`, actual cut/caption frames in `review/`, physical orientation, full phone-size playback and audio when available. A compiled cue list proves mapping and text inputs, not the accuracy of transcription, translation or hearing. Record feedback in the existing content record and apply only the requested revision. Existing authorization governs whether another review checkpoint is needed.
 
 ## Approved one-shot typography
 

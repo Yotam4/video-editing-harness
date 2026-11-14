@@ -1,6 +1,6 @@
 # Reel editing and review
 
-Version: 1. Checked: 2026-11-14. First-party production guidance.
+Version: 2. Checked: 2026-11-14. First-party production guidance adapted from the confirmed Tal the Traveler comparison.
 
 Use the existing Reel procedure for footage and the product-video procedure for app proof. This document gives both a shared edit record and a reproducible review step. It adds no new content recipe or publishing automation.
 
@@ -13,8 +13,8 @@ Choose an editing treatment that fits the material:
 | Treatment | Editing decisions | Current tool boundary |
 | --- | --- | --- |
 | Natural one-shot | One useful in/out range, native frame, one readable overlay and a visible payoff | Existing `skills/el-hamaayan-reel/scripts/render_one_shot_reel.py` |
-| Montage | Selects, shot order, continuity, cut points and a reason for every cut | Use an available editor or an explicitly selected production project; there is no bundled montage renderer yet |
-| Spoken story | Speech selects, necessary context, captions, useful supporting shots and audible pauses | Requires an editor/caption workflow; no transcription or word timing is inferred from the footage |
+| Montage | Selects, shot order, continuity, cut points and a reason for every cut | `scripts/render_reel_edit.py` assembles a JSON shot list at natural speed |
+| Spoken story | Speech selects, necessary context, captions, useful supporting shots and audible pauses | The shot-list renderer supports timed captions from supplied alignment; transcription/forced alignment requires a selected tool |
 | Product/demo | Verified start, action and settled result; legible UI and accurate tap/cursor targets | Use the [product-video playbook](product-video-playbook.md) and the chosen production project |
 
 The one-shot look remains an approved style. A request for a different treatment does not inherit its full-duration text or 10–15 second recommendation automatically.
@@ -28,6 +28,46 @@ Keep source time distinct from timeline time. Record the source in/out range, ti
 Lock exact on-screen copy separately from line breaks and caption timing. Do not rewrite speech into a quote without checking the recording. Inspect Hebrew shaping, punctuation and mixed numbers on the actual render. A transcript alone does not establish subtitle timing.
 
 Choose what leads the pace: speech, a natural action, a reveal, or measured music beats. Remove repeated setup; hold the result long enough to understand. Music is optional. Record the role and source of speech, ambient sound, music and effects; check their balance through listening. Do not treat a stream being present or decoded as proof that it is audible, intelligible or synchronized.
+
+## Select moments before adding effects
+
+Inspect the relevant source collection before choosing a cut. Filenames, model tags and transcript scores can find candidates; they cannot prove which moment carries the story. For one conversation, keep its context, complete thoughts, reactions and real payoff together. A scenic reveal can be complete with no dialogue or CTA. For a reference-led edit, explain what makes it work and match that reason to our own footage before copying its cut times or typography.
+
+Protect word tails and reactions at each in/out point. A quiet beat can carry meaning. Listen around the actual cut rather than deleting every gap or applying a fixed shot length. On two-camera footage, confirm shared event timing and which microphone is useful before choosing the angle. These are editorial checks; the renderer does not infer a good story or verify speech from text.
+
+## Render an editable shot list
+
+Copy [the JSON template](../../templates/reel-edit.json) into an ignored `.work/<item>/` production folder and replace the placeholder sources with real downloads. Source paths resolve relative to the plan file. Keep the approved plan/version and stable Drive references in the content record; derivative build logs, cue dumps and media stay outside Git.
+
+```sh
+python3 scripts/render_reel_edit.py .work/item/edit-v1.json --check
+python3 scripts/render_reel_edit.py .work/item/edit-v1.json .work/item/preview-v1 --preview
+python3 scripts/render_reel_edit.py .work/item/edit-v1.json .work/item/export-v1
+```
+
+`--check` probes sources and validates timing without rendering. Preview is 432×768; export is 1080×1920. Both use 30fps and the same shot/caption clock. Shots play at their natural speed, with input frame rates sampled onto the output clock. The renderer supplies hard cuts, an optional explicit rotation, native framing or explicit black padding, and original source audio or mute. It does not add automatic zooms, denoising, music, grading or transitions. Known HDR inputs are rejected until an explicit SDR derivative has been prepared and inspected.
+
+Each shot has a source, `source_in` in the original source's seconds and an integer `frames` count. Its exclusive out point is `source_in + frames / 30`. When a local file is only a fetched excerpt, `clock_start` states which original-source timestamp its local zero represents. For example, a local excerpt starting at original second 40 with `source_in: 42` seeks local second 2. A window outside the available excerpt fails. Extra `rotate` is clockwise after metadata rotation; inspect feet, hands and faces for content that is upside down despite valid metadata.
+
+Captions have separate roles. `overlay` uses final-timeline `start_frame` and exclusive `end_frame`, and can remain through a quiet scenic shot. `speech` uses a shot ID, source in/out seconds and the same `alignment_id` as its source. For example, after verified alignment, a cue may be:
+
+```json
+{
+  "id": "spoken-1", "role": "speech", "shot": "payoff",
+  "source_in": 1.2, "source_out": 2.4,
+  "text": "EXACT APPROVED DISPLAY WORDING",
+  "original_text": "VERBATIM SOURCE WORDING",
+  "source_language": "he", "display_language": "he",
+  "alignment_id": "VERIFIED_ALIGNMENT_ID",
+  "translation_status": "not_applicable", "uncertainty": []
+}
+```
+
+The example is a field guide, not approved copy. Keep original and displayed wording separate when translating and label translation review honestly. An alignment label enforces a shared clock; it does not establish that the supplied timing or transcription is correct. Use a suitable full-source alignment tool, then inspect and listen to the export. Do not estimate word timing from sentence length. Caption starts are mapped independently and rounded to the nearest output frame; earlier reading holds cannot delay later speech. Overlapping or cross-shot speech cues are rejected. Short holds produce review warnings without changing locked words or timing.
+
+Each new version directory contains `cut.mp4`, renderer-emitted `cues.json`, `edit-build.json`, `captions.ass` and `review/`. Cues record exact text and its hash, source/alignment fields and final frame range. The build records the plan hash and resolved shot clocks. The review pack checks frame count and export properties and samples actual frames at cuts and caption changes. Caption times use an explicit 1/30-second timeline after joining, so concatenation rounding cannot leave a caption on screen past its out point. A successful build remains `not_approved`; readability, wording, physical orientation, full playback and listening still need review.
+
+Source media and existing output directories are never overwritten. For a revision, save a new plan version, change the affected shot/cue only and render a new version directory. Reuse the original renderer for an existing approved one-shot revision unless changing its rendering is requested. Use a representative preview before expanding a new treatment into a batch, while continuing work already authorized by the owner.
 
 ## Review the actual export
 
@@ -79,8 +119,8 @@ The room adapts [Take One's MIT code](../../THIRD_PARTY.md). It adds frame timin
 
 Baseline inspected at [`0d9de3d43c80f9ed36af25a10134e4a586a3433e`](https://github.com/Yotam4/video-editing-harness/commit/0d9de3d43c80f9ed36af25a10134e4a586a3433e).
 
-Our planning guidance is substantially broader than our executable editing tools. The baseline has a one-shot overlay renderer and product-video planning; it has no general timeline assembler, transcript alignment, audio mixing pipeline or automated cut review. This change supplies cut review and an edit record. It does not claim the other capabilities are implemented.
+The baseline had a one-shot overlay renderer and product-video planning. This change adds basic shot-list assembly, supplied-timing Hebrew captions, build-emitted cue data and review tools. It does not add transcription/forced alignment, semantic moment selection, automatic camera tracking or audio mixing.
 
-The [two-repo review](../research/video-harness-review.md) compares this baseline with Tal Siach's [Take One at `43fd27b`](https://github.com/talsiach/take-one/tree/43fd27b8878241deb50a5884a154b173272b858f). The review-room files are the selective code adaptation; the export-review CLI and edit template are first-party additions. Source hashes, license and changes are retained in [the manifest](../../references/take-one-adaptation.json).
+The [two-repo review](../research/video-harness-review.md) compares this baseline with the confirmed [talthetraveler/VIDEO-EDITING at `0f8f1be`](https://github.com/talthetraveler/VIDEO-EDITING/tree/0f8f1bea35a32d16659a58b8c203bc70ddf1d24b). Its source clocks, caption discipline, selection/QA and scoped-learning methods inform our first-party implementation. [The source manifest](../../references/tal-video-editing-review.json) records what was inspected. The optional MIT review room is separately adapted from Take One and retains its own attribution.
 
-Next opportunities are timeline assembly, Hebrew caption alignment and speech/music/ambient mixing. Select those tools for a concrete production brief. Take One's wide-frame clip extraction, intentional playback-rate changes and macOS subject matting are unsuitable defaults for our native footage. Do not import its entire rendering/music stack to close one editing gap.
+Next opportunities are Hebrew forced alignment, speaker/camera coverage and speech/music/ambient mixing. Select those tools for a concrete production brief. Tal's Windows paths, accounts and personal style are separate from these methods; choose a capability for the job instead of installing the whole repository.
